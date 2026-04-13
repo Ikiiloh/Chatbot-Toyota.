@@ -90,8 +90,7 @@ prototype/
 
 1. **Clone repository**
    ```bash
-   git clone https://github.com/Ikiiloh/Toyota Chatbot.git
-   cd Toyota Chatbot
+   https://github.com/Ikiiloh/Chatbot-Toyota..git
    ```
 
 2. **Install dependensi**
