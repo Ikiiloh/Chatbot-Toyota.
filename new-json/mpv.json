@@ -1,0 +1,291 @@
+[
+    {
+        "tipe_mobil": "Toyota New Alphard",
+        "varian": "2.5 XE (Gasoline)",
+        "harga": "1.355.000.000",
+        "spesifikasi": {
+            "segmentation": "MPV Premium / Luxury Minivan",
+            "performance_specs": "Ditenagai mesin bensin 2AR FE berkapasitas 2.5L. Menghasilkan tenaga maksimal 134 KW (182 PS) dan torsi 235 Nm (23.9 kgm). Menggunakan transmisi CVT dengan mode Sequential [M Mode].",
+            "fuel_system_capacity_efficiency_estimates": "Berbahan bakar bensin. Kapasitas tangki 75 liter dan estimasi konsumsi bahan bakar dalam kota yang padat, konsumsi ini biasanya turun menjadi sekitar 7 hingga 9 km per liter, sedangkan untuk perjalanan luar kota atau tol dapat mencapai sekitar 10 hingga 12 km per liter.",
+            "dimensions": "Panjang 5.010 mm, lebar 1.850 mm, tinggi 1.945 mm, dan jarak sumbu roda 3.000 mm. Kapasitas penumpang adalah 7 orang (2 di depan, 2 Captain Seat di baris kedua, dan 3 penumpang di baris ketiga).",
+            "colour_option": "Black, Platinum White Pearl.",
+            "chassis_drivetrain": "Sistem kemudi Power Tilt & Telescopic. Suspensi depan FR Strut dan suspensi belakang Double Wishbone (DWB). Menggunakan velg Alloy 17 inci dengan ban 225/65 R17.",
+            "exterior": "Dilengkapi Luxury Front Grille, Sharp LED Headlamp (LED 3 Lamps, Adaptive High beam System, Cornering Lamp, Sequential Turn Lamp, dan DRL), Elegant Rear Combination Lamp, serta Comfortable Power Slide Door.",
+            "interior_comfort": "Material jok berbahan Synthetic Leather. Baris kedua menggunakan Captain Seat berpengaturan elektrik (Power) dengan Headrest besar. Baris ketiga berupa 5:5 Split Space up Bench. Sistem tata udara Dual A/C dengan Nanoe X untuk area depan (FR). Terdapat Rear Side Shade dan Front Seat Storage.",
+            "technology": "Panel instrumen pengemudi 12.3 inci Full TFT Digital Meter. Head Unit 14 inci yang dipadukan 15 speaker JBL, Rear Seat Entertainment 14 inci, tombol kemudi Audio+Voice+ACC+LTA, dan Wireless Charger.",
+            "safety_specs": "Toyota Safety Sense 3.0 (Pre Collision System, Full Speed ACC, Lane Tracing Assist, Adaptive High Beam, Dynamic Radar Cruise Control, Lane Departure Alert). Dilengkapi Panoramic View Monitor (PVM), Blind Spot Monitor (BSM), Parking Brake Support (mendeteksi Object+Vehicle+Pedestrian), Safe Exit Assist (SEA), dan Airbags (Front D+P, Side, CSA)."
+        }
+    },
+    {
+        "tipe_mobil": "Toyota New Alphard",
+        "varian": "2.5 G (Gasoline)",
+        "harga": "1.740.300.000",
+        "spesifikasi": {
+            "segmentation": "MPV Premium / Luxury Minivan",
+            "performance_specs": "Ditenagai mesin bensin 2AR FE berkapasitas 2.5L. Menghasilkan tenaga maksimal 134 KW (182 PS) dan torsi 235 Nm (23.9 kgm). Menggunakan transmisi CVT dengan mode Sequential [M Mode].",
+            "fuel_system_capacity_efficiency_estimates": "Berbahan bakar bensin.Kapasitas tangki 75 liter dan estimasi konsumsi bahan bakar dalam kota yang padat, konsumsi ini biasanya turun menjadi sekitar 7 hingga 9 km per liter, sedangkan untuk perjalanan luar kota atau tol dapat mencapai sekitar 10 hingga 12 km per liter.",
+            "dimensions": "Panjang 5.010 mm, lebar 1.850 mm, tinggi 1.945 mm, dan jarak sumbu roda 3.000 mm. Kapasitas penumpang adalah 7 orang (2 di depan, 2 VIP Seat di baris kedua, dan 3 penumpang di baris ketiga).",
+            "colour_option": "Black, Platinum White Pearl.",
+            "chassis_drivetrain": "Sistem kemudi Power Tilt & Telescopic. Suspensi depan FR Strut dan suspensi belakang Double Wishbone (DWB). Menggunakan velg Alloy 19 inci dengan ban 225/55 R19.",
+            "exterior": "Luxury Front Grille, Sharp LED Headlamp (LED 3 Lamps, Adaptive High beam System, Cornering Lamp, Sequential Turn Lamp, DRL), Elegant Rear Combination Lamp, Comfortable Power Slide Door. Ekstra fitur atap Moon Roof (P Shade R/L), Advanced Power Backdoor dengan Voice Command, serta Retractable Side Step teriluminasi.",
+            "interior_comfort": "Material jok berlapis kulit asli (Natural Leather). Baris kedua menggunakan VIP Seat elektrik ber Headrest besar, dilengkapi Seat Heater dan Seat Massage. Baris ketiga 5:5 Split Space up Bench. Tata udara Dual A/C terintegrasi Nanoe X merata (FR+RR). Dilengkapi Rear Side Shade dan Front Seat Storage.",
+            "technology": "Proyektor kaca Head Up Display (HUD), 12.3 inci Full TFT Digital Meter, Head Unit 14 inci dengan 15 speaker JBL, Rear Seat Entertainment 14 inci, Wireless Charger, Digital Video Recorder (DVR) terintegrasi smartphone, dan kendali layar lepas pasang (Detachable Smartphone like Remote Control). Dilengkapi layanan mToyota (T Intouch) untuk Peace of Mind: Driving Report, Inquiry & Support Center, Emergency Road Assistance, Geofencing, Vehicle Info, serta Speed & Idle Alert.",
+            "safety_specs": "Toyota Safety Sense 3.0 (Pre Collision System, Full Speed ACC, Lane Tracing Assist, Adaptive High Beam, Dynamic Radar Cruise Control, Lane Departure Alert). Memiliki Driver Monitoring System, Panoramic View Monitor (PVM), Blind Spot Monitor (BSM), Parking Brake Support (Object+Vehicle+Pedestrian), Safe Exit Assist (SEA), dan perlindungan menyeluruh Airbags (Front D+P, Side, CSA). Didukung pula oleh peranti Safety & Convenience (T Intouch): Time Fencing, Guest Driver Alert, Find My Car, dan Stolen Vehicle Tracking."
+        }
+    },
+    {
+        "tipe_mobil": "Toyota New Alphard Hybrid EV",
+        "varian": "2.5 XE HEV",
+        "harga": "1.460.000.000",
+        "spesifikasi": {
+            "segmentation": "MPV Premium Hybrid (Ramah Lingkungan)",
+            "performance_specs": "Sistem Hybrid A25A FXS 2.5L. Mesin pembakaran memproduksi 140 KW (190 PS) dan torsi 239 Nm (24.4 kgm), dikombinasi dengan motor listrik mencapai daya total HEV System Output 184 KW (250 PS). Transmisi CVT dengan mode Sequential [S Mode] dan Paddle Shift.",
+            "fuel_system_capacity_efficiency_estimates": "Berbahan bakar bensin. Mesin Hybrid EV bersistem kelistrikan berkelanjutan untuk efisiensi bahan bakar maksimal dan ramah lingkungan. Kapasitas tangki 60 liter dan estimasi konsumsi bahan bakar biasanya berada di kisaran 14 hingga 18 km per liter di dalam kota dan dapat mencapai 16 hingga 20 km per liter untuk perjalanan tol.",
+            "dimensions": "Panjang 5.010 mm, lebar 1.850 mm, tinggi 1.945 mm, dan jarak sumbu roda 3.000 mm. Kapasitas penumpang adalah 7 orang (2 di depan, 2 Captain Seat di baris kedua, dan 3 penumpang di baris ketiga).",
+            "colour_option": "Black, Platinum White Pearl.",
+            "chassis_drivetrain": "Sistem kemudi Power Tilt & Telescopic. Suspensi depan FR Strut dan suspensi belakang Double Wishbone (DWB). Menggunakan velg Alloy 17 inci dengan ban 225/65 R17.",
+            "exterior": "Terdapat lencana Hybrid EV Emblem, Luxury Front Grille, Sharp LED Headlamp (LED 3 Lamps, Adaptive High beam System, Cornering Lamp, Sequential Turn Lamp, DRL), Elegant Rear Combination Lamp, serta Comfortable Power Slide Door.",
+            "interior_comfort": "Jok Synthetic Leather. Baris kedua tipe Captain Seat elektrik dengan Headrest besar. Baris ketiga tipe 5:5 Split Space up Bench. Tata udara Dual A/C dilengkapi pemurni udara Nanoe X khusus kabin depan (FR). Memiliki Rear Side Shade dan Front Seat Storage.",
+            "technology": "Kokpit dengan panel instrumen 12.3 inci Full TFT Digital Meter. Pusat hiburan memuat Head Unit 14 inci bersama 15 speaker JBL, Rear Seat Entertainment 14 inci di atap, dan Wireless Charger.",
+            "safety_specs": "Toyota Safety Sense 3.0 (Pre Collision System, Full Speed ACC, Lane Tracing Assist, Adaptive High Beam, Dynamic Radar Cruise Control, Lane Departure Alert). Fitur pendukung manuver berupa Panoramic View Monitor (PVM), Blind Spot Monitor (BSM), Parking Brake Support (Object+Vehicle+Pedestrian), Safe Exit Assist (SEA), serta kelengkapan Airbags (Front D+P, Side, CSA)."
+        }
+    },
+    {
+        "tipe_mobil": "Toyota New Alphard Hybrid EV",
+        "varian": "2.5 HEV",
+        "harga": "1.826.600.000",
+        "spesifikasi": {
+            "segmentation": "MPV Premium Hybrid (Ramah Lingkungan)",
+            "performance_specs": "Jantung pacu Hybrid A25A FXS 2.5L. Daya mesin 140 KW (190 PS) / 239 Nm (24.4 kgm) yang digabungkan bersama sistem motor listrik sehingga menyalurkan tenaga kombinasi HEV System Output 184 KW (250 PS). Transmisi cerdas CVT dengan Sequential [S Mode] dan tuas mekanik Paddle Shift.",
+            "fuel_system_capacity_efficiency_estimates": "Berbahan bakar bensin. Sangat efisien dalam menekan emisi bahan bakar melalui arsitektur canggih Hybrid EV Engine. Kapasitas tangki 60 liter dan estimasi konsumsi bahan bakar biasanya berada di kisaran 14 hingga 18 km per liter di dalam kota dan dapat mencapai 16 hingga 20 km per liter untuk perjalanan tol.",
+            "dimensions": "Panjang 5.010 mm, lebar 1.850 mm, tinggi 1.945 mm, dan jarak sumbu roda 3.000 mm. Kapasitas penumpang adalah 7 orang (2 di depan, 2 VIP Seat di baris kedua, dan 3 penumpang di baris ketiga).",
+            "colour_option": "Black, Platinum White Pearl.",
+            "chassis_drivetrain": "Sistem kemudi Power Tilt & Telescopic dengan suspensi haluan FR Strut dan suspensi buritan Double Wishbone (DWB). Ditopang velg Alloy berukuran 19 inci dengan ban 225/55 R19.",
+            "exterior": "Dipertegas Hybrid EV Emblem, Luxury Front Grille, Sharp LED Headlamp (LED 3 Lamps, Adaptive High beam System, Cornering Lamp, Sequential Turn Lamp, DRL), Elegant Rear Combination Lamp, dan Comfortable Power Slide Door. Kemewahan diakomodasi atap Moon Roof (P Shade R/L), Advanced Power Backdoor via Voice Command, serta Retractable Side Step teriluminasi.",
+            "interior_comfort": "Kursi dilapisi kulit asli Natural Leather. Posisi baris kedua memakai VIP Seat elektrik dengan bantalan Headrest besar, diperkaya Seat Heater dan Seat Massage. Udara sehat melalui filter Nanoe X pada Dual A/C yang merata (FR+RR). Dilengkapi Rear Side Shade, Front Seat Storage, dan 5:5 Split Space up Bench di baris ketiga.",
+            "technology": "Sistem pantul informasi Head Up Display (HUD), 12.3 inci Full TFT Digital Meter, Head Unit layar sentuh 14 inci ditambah 15 speaker JBL murni, layar monitor belakang 14 inci (Rear Seat Entertainment), Wireless Charger, fasilitas rekaman DVR terhubung smartphone, kontrol kabin dengan Detachable Smartphone like Remote Control. Telah terkoneksi dengan mToyota (T Intouch) untuk fitur Peace of Mind: Driving Report, Inquiry & Support Center, Emergency Road Assistance, Geofencing, Vehicle Info, dan Speed & Idle Alert.",
+            "safety_specs": "Proteksi kelas wahid Toyota Safety Sense 3.0 (Pre Collision System, Full Speed ACC, Lane Tracing Assist, Adaptive High Beam, Dynamic Radar Cruise Control, Lane Departure Alert). Fitur siaga mengemudi Driver Monitoring System, Panoramic View Monitor (PVM), Blind Spot Monitor (BSM), Parking Brake Support (Object+Vehicle+Pedestrian), Safe Exit Assist (SEA), dan 6 titik barikade Airbags (Front D+P, Side, CSA). Dilengkapi utilitas perlindungan ekstra Safety & Convenience dari T Intouch: Time Fencing, Guest Driver Alert, Find My Car, dan Stolen Vehicle Tracking."
+        }
+    },
+    {
+        "tipe_mobil": "Toyota New Vellfire Hybrid EV",
+        "varian": "2.5 HEV",
+        "harga": "1.967.800.000",
+        "spesifikasi": {
+            "segmentation": "MPV Premium Hybrid (Sporty & Eksekutif Mewah)",
+            "performance_specs": "Sistem penggerak elektrifikasi A25A FXS 2.5L. Mesin menembakkan daya 140 KW (190 PS) dan torsi 239 Nm (24.4 kgm). Energi didongkrak motor listrik hingga meraih HEV System Output 184 KW (250 PS). Transmisi memakai unit CVT dengan fitur transmisi Sequential [S Mode] serta sentuhan agresif dari Paddle Shift.",
+            "fuel_system_capacity_efficiency_estimates": "Berbahan bakar bensin. Platform mesin Hybrid EV Engine memampukan manajemen efisiensi konsumsi BBM dan mereduksi polusi lingkungan secara efektif. Kapasitas tangki 60 liter dan estimasi konsumsi bahan bakar biasanya berada di kisaran 14 hingga 18 km per liter di dalam kota dan dapat mencapai 16 hingga 20 km per liter untuk perjalanan tol.",
+            "dimensions": "Panjang ekstrem di 5.010 mm, lebar 1.850 mm, beratap tinggi 1.945 mm, dan kabin ekstra luas dengan sumbu roda membentang 3.000 mm. Kapasitas penumpang adalah 7 orang (2 di depan, 2 VIP Seat di baris kedua, dan 3 penumpang di baris ketiga)",
+            "colour_option": "Warna Eksterior: Black, Platinum White Pearl. Terdapat pilihan nuansa warna kabin dalam eksklusif yakni Sunset Brown (Classic Luxury Interior Design).",
+            "chassis_drivetrain": "Fungsi setir Power Tilt & Telescopic merespons kaki kaki bersuspensi depan FR Strut dan suspensi independen belakang Double Wishbone dengan setelan spesifik VIP Tune. Sepatu rodanya berwujud velg Alloy 19 inci dibungkus ban 225/55 R19.",
+            "exterior": "Karakter tangguh via The More Elegant Front Grille, logo tajam Simplicity In Boldness Emblem, Hybrid EV Emblem, Sharp LED Headlamp dengan AHS dan Sequential Turn Lamp, Elegant Rear Combination Lamp, dan Rear Fog Lamp. Paket mewah luar mencakup Comfortable Power Slide Door, Advanced Power Backdoor cerdas bertenaga Voice Command, Retractable Side Step teriluminasi, serta kemewahan pencahayaan atap lewat Moon Roof (P Shade R/L).",
+            "interior_comfort": "Bermandikan material jok Natural Leather murni. Tempat duduk raja di baris dua merupakan Power Long Slide VIP Seat elektrik yang super lega dibekali relaksasi Seat Massage, fitur penghangat Seat Heater, meja kerja eksekutif Luxurious Multifunctional Table, serta layar gawai kendali Detachable Smartphone like Remote Control. Udara disegarkan modul Nanoe X menyeluruh (FR+RR) melalui Dual A/C. Dipermanis keberadaan Rear Side Shade, Front Seat Storage, dan formasi 5:5 Split Space up Bench belakang.",
+            "technology": "Visibilitas kemudi mantap melalui pantulan proyektor Head Up Display (HUD) mendampingi monitor dasbor 12.3 inci Full TFT Digital Meter. Hiburan setara bioskop menggunakan Head Unit masif 14 inci berdampingan dengan 15 titik speaker harmonis JBL, ditambah layar plafon penumpang 14 inci (Rear Seat Entertainment). Tersedia bantalan Wireless Charger, kemudi sentuh Touch Switch, dan modul perekam DVR. Telematika selalu online lewat fitur mToyota (T Intouch) Peace of Mind: Driving Report, Inquiry & Support Center, Emergency Road Assistance, Geofencing, Vehicle Info, hingga Speed & Idle Alert.",
+            "safety_specs": "Dilengkapi sensor deteksi kelelahan Driver Monitoring System. Modul proteksi utama ditangani oleh paket paripurna Toyota Safety Sense 3.0 (Pre Collision System, Full Speed ACC, Lane Tracing Assist, Adaptive High Beam, Dynamic Radar Cruise Control, Lane Departure Alert). Visibilitas disokong penuh oleh PVM (Kamera 360), titik rambu BSM, intervensi Parking Brake Support (Object+Vehicle+Pedestrian), Safe Exit Assist (SEA), dan perlindungan pasif Airbags mencakup Front D+P, Side, serta pelindung tirai CSA. Untuk pengamanan jarak jauh, fitur Safety & Convenience dari T Intouch menunjang keamanan mutlak: Time Fencing, Guest Driver Alert, Find My Car, dan Stolen Vehicle Tracking."
+        }
+    },
+    {
+        "tipe_mobil": "Toyota New Kijang Innova Zenix",
+        "varian": "2.0 G CVT",
+        "harga": "454.500.000",
+        "spesifikasi": {
+            "segmentation": "MPV Keluarga bertenaga bensin dengan platform sasis tangguh Toyota New Global Architecture (TNGA).",
+            "performance_specs": "Ditenagai mesin bensin M20A FKS berkapasitas 1.987 cc (4 silinder in line, 16 Valve DOHC, penggerak rantai Dual VVT i). Memproduksi daya maksimal sebesar 174 ps pada 6.600 rpm dan torsi puncak 20,9 kgm pada rentang 4.500 hingga 4.900 rpm. Distribusi tenaga dikelola oleh transmisi otomatis CVT.",
+            "fuel_system_capacity_efficiency_estimates": "Mengadopsi sistem injeksi bahan bakar Direct Injection, Port Injection D 4S system. Tangki bahan bakar mampu menampung hingga kapasitas 52 liter. Dalam penggunaan sehari hari di Indonesia, terutama di dalam kota dengan kondisi lalu lintas padat, konsumsi bahan bakar biasanya berada di kisaran 10 hingga 13 km per liter, sedangkan untuk perjalanan tol bisa mencapai sekitar 14 hingga 17 km per liter.",
+            "dimensions": "Panjang bodi 4.755 mm, lebar 1.850 mm, tinggi 1.795 mm, dan jarak as roda (wheelbase) sejauh 2.850 mm. Ground clearance dirancang setinggi 185 mm. Kapasitas ruang kabin dirancang lapang untuk memuat 7 hingga 8 penumpang.",
+            "colour_option": "Platinum White Pearl, Silver Metallic, Gray Metallic, Attitude Black.",
+            "chassis_drivetrain": "Sistem penggerak roda depan 2WD (FF). Kestabilan ditopang oleh suspensi depan MacPherson Strut dan suspensi belakang Torsion Beam (keduanya dengan Stabilizer). Sistem pengereman menggunakan piringan cakram penuh (16 inci DISC) pada bagian depan maupun belakang, didukung Electric Parking Brake dengan Brake Hold. Menggunakan velg Alloy berukuran 16 inci dengan ban 205/65 R16.",
+            "exterior": "Sistem pencahayaan menggunakan Stunning LED Headlamp dan tampilan kaki kaki bernuansa elegan melalui Captivating 16 inci Alloy Wheel berwarna perak.",
+            "interior_comfort": "Dasbor pengemudi dilengkapi layar instrumen 4.2 inci TFT MID. Kabin telah menggunakan sistem tata udara cerdas Digital Auto AC.",
+            "technology": "Pusat hiburan multimedia berupa New 10 inci Head Unit yang mendukung fungsi Smartphone Connectivity sekaligus kemudahan membaca saldo dengan e Toll Card NFC.",
+            "safety_specs": "Fitur perlindungan mencakup Dual SRS Airbag (Front D+P), penyeimbang kemudi Vehicle Stability Control (VSC), penahan tanjakan Hill Start Assist (HSA), Parking Sensor, Parking Camera, perlindungan kursi anak ISOFIX + Tether, dan Smart Entry. Diperkuat sistem telematika mToyota (T Intouch) dengan fitur Safety & Convenience yang melingkupi Find My Car, Guest Driver Alert, Stolen Vehicle Tracking, Time Fencing, Vehicle Info, Emergency Road Assistance, Inquiry & Support Center, Driving Report, Geofencing, Speed & Idle Alert, hingga Remote Immobilizer."
+        }
+    },
+    {
+        "tipe_mobil": "Toyota New Kijang Innova Zenix",
+        "varian": "2.0 V CVT",
+        "harga": "499.800.000",
+        "spesifikasi": {
+            "segmentation": "MPV Premium bertenaga bensin dengan desain kabin kelas atas yang lebih mewah.",
+            "performance_specs": "Mesin bensin M20A FKS 1.987 cc (4 silinder in line, 16 Valve DOHC, Dual VVT i) yang menyemburkan tenaga 174 ps di 6.600 rpm serta torsi maksimal 20,9 kgm pada putaran 4.500 4.900 rpm. Menggunakan transmisi CVT.",
+            "fuel_system_capacity_efficiency_estimates": "Sistem suplai bahan bakar Direct Injection, Port Injection D 4S system dengan tangki berkapasitas 52 liter. Dalam penggunaan sehari hari di Indonesia, terutama di dalam kota dengan kondisi lalu lintas padat, konsumsi bahan bakar biasanya berada di kisaran 10 hingga 13 km per liter, sedangkan untuk perjalanan tol bisa mencapai sekitar 14 hingga 17 km per liter.",
+            "dimensions": "Panjang 4.755 mm, lebar 1.850 mm, tinggi total 1.795 mm, sumbu roda membentang 2.850 mm, dan ground clearance 185 mm. Kapasitas kabin memuat 7 hingga 8 penumpang.",
+            "colour_option": "Platinum White Pearl, Silver Metallic, Gray Metallic, Attitude Black.",
+            "chassis_drivetrain": "Penggerak roda depan 2WD (FF). Suspensi MacPherson Strut (Depan) serta Torsion Beam (Belakang). Pengereman mengusung cakram 16 inci penuh (DISC) dengan Electric Parking Brake dan Brake Hold. Dilengkapi velg Alloy 17 inci dengan spesifikasi ban 215/60 R17.",
+            "exterior": "Visual dipertegas velg Alloy 17 inci bercat perak yang atraktif dan lampu belakang modern Rear Combination Lamp.",
+            "interior_comfort": "Kabin depan dihiasi Remarkable Dashboard dua warna (two tone) berbalut bantalan empuk Soft Pad. Terdapat layar 4.2 inci TFT MID, cahaya ambien Illumination Light Instrument Panel, dan pendingin Digital Auto AC.",
+            "technology": "Disematkan layar 10 inci Head Unit (Smartphone Connectivity & NFC e Toll). Baris penumpang mendapat sistem hiburan 10 inci Dual Rear Seat Entertainment dengan In Car connectivity independen.",
+            "safety_specs": "Fasilitas keselamatan mencakup Dual SRS Airbag (Front D+P), Vehicle Stability Control (VSC), Hill Start Assist (HSA), Parking Sensor dengan Corner Sensor, Parking Camera, dudukan kursi anak ISOFIX + Tether, dan Smart Entry. Dilengkapi layanan T Intouch (Safety & Convenience) yang meliputi Find My Car, Guest Driver Alert, Stolen Vehicle Tracking, Time Fencing, Vehicle Info, Emergency Road Assistance, Inquiry & Support Center, Driving Report, Geofencing, Speed & Idle Alert, dan Remote Immobilizer."
+        }
+    },
+    {
+        "tipe_mobil": "Toyota New Kijang Innova Zenix Hybrid EV",
+        "varian": "2.0 G HEV CVT",
+        "harga": "491.000.000",
+        "spesifikasi": {
+            "segmentation": "MPV Elektrifikasi (Hybrid EV) yang fungsional dan irit energi.",
+            "performance_specs": "Mesin Hybrid generasi kelima M20A FXS kapasitas 1.987 cc. Mesin pembakaran menghasilkan tenaga 152 ps di 6.000 rpm dengan torsi 19,1 kgm. Motor elektrik memproduksi 113 ps dan torsi 21 kgm. Total daya maksimal (HEV System Output) berada di angka 186 ps. Transmisi elektronik e CVT.",
+            "fuel_system_capacity_efficiency_estimates": "Injeksi bahan bakar D 4S system (tangki 52 liter). Dilengkapi manajemen efisiensi via EV Mode, ECO Mode, dan Power Mode. Dalam penggunaan sehari hari di Indonesia, terutama di dalam kota dengan kondisi lalu lintas padat, konsumsi bahan bakar biasanya berada di kisaran 14 hingga 18 km per liter, sementara itu, untuk perjalanan luar kota atau jalan tol dengan kecepatan stabil, konsumsi bahan bakar umumnya lebih efisien, yaitu berada di kisaran 18 hingga 22 km per liter",
+            "dimensions": "Panjang 4.755 mm, lebar 1.850 mm, tinggi 1.795 mm, wheelbase 2.850 mm, dan ground clearance 185 mm. Kapasitas angkut memuat 7 hingga 8 penumpang.",
+            "colour_option": "Platinum White Pearl, Silver Metallic, Gray Metallic, Attitude Black.",
+            "chassis_drivetrain": "Penggerak roda depan 2WD (FF). Suspensi MacPherson Strut dan Torsion Beam. Rem cakram (16 inci DISC) di empat roda dengan Electric Parking Brake dan Brake Hold. Velg menggunakan Alloy 16 inci dan ban 205/65 R16.",
+            "exterior": "Menonjolkan New HEV Emblem, paras Stunning LED Headlamp, dan Captivating 16 inci Alloy Wheel silver.",
+            "interior_comfort": "Dasbor menggunakan desain Two Tone Design Dashboard. Modul instrumen menggunakan panel digital 7 inci TFT MID. Pendingin kabin didukung oleh Digital Auto AC.",
+            "technology": "Terdapat New 10 inci Head Unit dengan koneksi smartphone dan fitur E toll Card NFC.",
+            "safety_specs": "Keselamatan didukung perlindungan pemonitor pejalan kaki dan objek mendekat Vehicle Approach Notice. Dilengkapi Dual SRS Airbag (Front D+P), Vehicle Stability Control (VSC), Hill Start Assist (HSA), Parking Sensor, Parking Camera, ISOFIX + Tether, dan Smart Entry. Proteksi layanan mToyota (T Intouch) memberikan akses Safety & Convenience untuk fitur Find My Car, Guest Driver Alert, Stolen Vehicle Tracking, Time Fencing, Vehicle Info, Emergency Road Assistance, Inquiry & Support Center, Driving Report, Geofencing, Speed & Idle Alert, beserta Remote Immobilizer."
+        }
+    },
+    {
+        "tipe_mobil": "Toyota New Kijang Innova Zenix Hybrid EV",
+        "varian": "2.0 V HEV CVT",
+        "harga": "563.300.000",
+        "spesifikasi": {
+            "segmentation": "MPV Hybrid Premium dengan estetika mewah dari atap panorama (Tersedia juga opsi modifikasi Modellista).",
+            "performance_specs": "Ditenagai mesin Hybrid EV M20A FXS 1.987 cc yang menyuplai daya sistem gabungan mencapai 186 ps (Mesin 152 ps, Motor 113 ps). Dipadukan transmisi mulus e CVT.",
+            "fuel_system_capacity_efficiency_estimates": "Sistem D 4S (tangki 52 liter). Menawarkan pemilihan efisiensi EV Mode, ECO Mode, dan Power Mode. Dalam penggunaan sehari hari di Indonesia, terutama di dalam kota dengan kondisi lalu lintas padat, konsumsi bahan bakar biasanya berada di kisaran 14 hingga 18 km per liter, sementara itu, untuk perjalanan luar kota atau jalan tol dengan kecepatan stabil, konsumsi bahan bakar umumnya lebih efisien, yaitu berada di kisaran 18 hingga 22 km per liter",
+            "dimensions": "Panjang 4.755 mm, lebar 1.850 mm, tinggi 1.795 mm, wheelbase 2.850 mm, dan ground clearance 185 mm. Kapasitas perjalanan menampung 7 hingga 8 penumpang.",
+            "colour_option": "Platinum White Pearl, Silver Metallic, Gray Metallic, Attitude Black.",
+            "chassis_drivetrain": "Traksi depan 2WD (FF). Suspensi MacPherson Strut (depan) dan Torsion Beam (belakang). Menggunakan rem piringan penuh (16 inci DISC), Electric Parking Brake (EPB), dan Brake Hold. Roda menggunakan velg Alloy 17 inci dengan ban 215/60 R17.",
+            "exterior": "Membawa New HEV Emblem, Rear Combination Lamp, velg Alloy 17 inci silver, serta atap kaca terbuka Panoramic Retractable Roof. (Khusus pembeli paket Modellista mendapat tambahan Front Bumper Spoiler, Side Body Moulding dengan Side Skirt, Rear Bumper Spoiler, dan Grille Ornament).",
+            "interior_comfort": "Dasbor berpadu panel material Soft Pad. Suasana relaksasi didukung oleh Illumination Light. Kokpit difasilitasi panel meter 7 inci TFT MID serta pendingin Digital Auto AC.",
+            "technology": "Terdapat layar sentuh besar New 12.3 inci Head Unit (Smartphone Connectivity & NFC) yang sudah memuat In Car WiFi & Entertainment System. Baris penumpang belakang dilayani layar 10 inci Dual Rear Seat Entertainment.",
+            "safety_specs": "Sistem keamanan mengandalkan fitur pemonitor peringatan objek mendekat Vehicle Approach Notice. Diperkuat perlindungan Dual SRS Airbag (Front D+P), Vehicle Stability Control (VSC), Hill Start Assist (HSA), Parking Sensor dengan Corner Sensor, Kamera Parkir pemandu, dudukan ISOFIX + Tether, dan Smart Entry. Terlindungi sistem Safety & Convenience T Intouch (Time Fencing, Guest Driver Alert, Find My Car, Stolen Vehicle Tracking, Emergency Road Assistance, Inquiry & Support Center, Driving Report, Geofencing, Speed & Idle Alert, dan Remote Immobilizer)."
+        }
+    },
+    {
+        "tipe_mobil": "Toyota New Kijang Innova Zenix Hybrid EV",
+        "varian": "2.0 Q HEV CVT TSS",
+        "harga": "638.800.000",
+        "spesifikasi": {
+            "segmentation": "MPV Hybrid Kasta Tertinggi (Top Tier) dengan kursi penumpang VIP dan perlindungan penuh Toyota Safety Sense. (Tersedia juga opsi Modellista).",
+            "performance_specs": "Mengadopsi powertrain Hybrid M20A FXS 1.987 cc (daya mesin mekanikal 152 ps, daya dinamo 113 ps) menghasilkan tenaga sistem total 186 ps. Dilengkapi perpindahan transmisi e CVT.",
+            "fuel_system_capacity_efficiency_estimates": "Sistem tangki bakar D 4S kapasitas 52 liter. Efisiensi energi dikontrol murni melalui EV Mode, ECO Mode, dan Power Mode. Dalam penggunaan sehari hari di Indonesia, terutama di dalam kota dengan kondisi lalu lintas padat, konsumsi bahan bakar biasanya berada di kisaran 14 hingga 18 km per liter, sementara itu, untuk perjalanan luar kota atau jalan tol dengan kecepatan stabil, konsumsi bahan bakar umumnya lebih efisien, yaitu berada di kisaran 18 hingga 22 km per liter",
+            "dimensions": "Panjang 4.755 mm, lebar 1.850 mm, tinggi 1.795 mm. Wheelbase 2.850 mm dan ground clearance 185 mm. Dikonfigurasi sangat eksklusif untuk 7 penumpang dan pada baris keduanya dilengkapi secara khusus dengan fitur Captain Seat with Ottoman.",
+            "colour_option": "Platinum White Pearl, Silver Metallic, Gray Metallic, Attitude Black.",
+            "chassis_drivetrain": "Sistem roda pendorong 2WD (FF). Ditopang lengan MacPherson Strut dan Torsion Beam. Pengemudian memakai Electric Parking Brake dengan Brake Hold dan rem cakram 16 inci DISC. Tampil ekstrem dengan velg Fascinating 18 inci Alloy Wheel warna Super Chrome dan ban 225/50 R18.",
+            "exterior": "Super premium dengan Panoramic Retractable Roof, HEV Emblem, Rear Combination Lamp, dan bagasi elektrik pintar New Power Back Door with Kick Sensor. (Varian paket Modellista mendapat Front Bumper Spoiler, Side Body Moulding dengan Side Skirt, Rear Bumper Spoiler, dan Grille Ornament).",
+            "interior_comfort": "Bentuk dasbor lapang Majestic Full Dashboard dengan material Soft Pad. Kursi penumpang dibalut kulit murni (Black Leather Seat). Penumpang baris kedua menempati VIP Captain Seat lengkap dengan sanggahan betis elektrik (Ottoman). Menghadirkan Illumination Light, panel digital 7 inci TFT MID, sistem kemudi Paddle Shift, dan Digital Auto AC.",
+            "technology": "Disajikan multimedia layar tajam 12.3 inci Head Unit bersistem In Car WiFi & Entertainment System. Terdapat tempat pengisi gawai Wireless Charger. Hiburan belakang disorot oleh monitor 10 inci Dual Rear Seat Entertainment.",
+            "safety_specs": "Tingkat keamanan absolut ditangani oleh Toyota Safety Sense 3.0 (Pre Collision System, Lane Departure Alert & Lane Tracing Assist, Dynamic Radar Cruise Control, Automatic High Beam). Turut ditanamkan asisten keselamatan ekstra yang mendeteksi objek di sekitar yaitu Vehicle Approach Notice, Blind Spot Monitor (BSM), Panoramic View Monitor (kamera 360), Digital Video Recorder (DVR), perlindungan tabrakan 6 SRS Airbags (Front D+P, Side, CSA), Parking Sensor dengan Corner Sensor, Vehicle Stability Control (VSC), Hill Start Assist (HSA), pengait bayi ISOFIX + Tether, dan akses Smart Entry. Sangat terintegrasi melalui Safety & Convenience dari T Intouch: Find My Car, Guest Driver Alert, Stolen Vehicle Tracking, Time Fencing, Vehicle Info, Emergency Road Assistance, Inquiry & Support Center, Driving Report, Geofencing, Speed & Idle Alert, beserta Remote Immobilizer."
+        }
+    },
+    {
+        "tipe_mobil": "Toyota New Kijang Innova",
+        "varian": "2.4 G DIESEL A/T",
+        "harga": "453.800.000",
+        "spesifikasi": {
+            "segmentation": "MPV Keluarga tangguh bermesin diesel.",
+            "performance_specs": "Ditenagai oleh mesin diesel 2 GD FTV berkapasitas 2.393 cc (4 silinder in-line, 16 valve DOHC dengan VNT Intercooler). Mesin ini menghasilkan tenaga maksimal 149 ps pada putaran 3.400 rpm, dan torsi puncak sebesar 36,7 kgm pada rentang 1.200 - 2.600 rpm. Penyaluran tenaga dikelola oleh transmisi otomatis 6 Speed A/T yang dilengkapi fitur Sport Sequential Switchmatic.",
+            "fuel_system_capacity_efficiency_estimates": "Menggunakan sistem suplai bahan bakar Injection With Common Rail. Kapasitas tangki bahan bakar Innova Reborn berada di kisaran 55 liter, dan dalam penggunaan nyata, terutama di dalam kota, konsumsi bahan bakar biasanya berada di kisaran 10 hingga 13 km per liter, sedangkan untuk perjalanan luar kota atau tol dapat mencapai sekitar 13 hingga 17 km per liter.",
+            "dimensions": "Panjang keseluruhan 4.735 mm, lebar 1.830 mm, tinggi 1.795 mm, dan jarak sumbu roda (wheelbase) 2.750 mm. Memiliki jarak pijak (tread) depan 1.540 mm dan belakang 1.540 mm. Kapasitas ruang kabin dirancang untuk menampung hingga 8 penumpang.",
+            "colour_option": "Super White 2, Silver Metallic, Gray Metallic, Attitude Black Mica.",
+            "chassis_drivetrain": "Kestabilan ditopang oleh suspensi depan Double Wishbone dengan Coil Spring dan Stabilizer, serta suspensi belakang 4 Link dengan Coil Spring dan Lateral Road. Sistem pengereman mengandalkan cakram berventilasi (Ventilated Disc) di roda depan dan tromol (Drum) di roda belakang. Menggunakan velg Two-Tone 16 inci yang elegan dengan ban berukuran 205/65 R16 (ban cadangan memiliki ukuran yang sama 205/65 R16).",
+            "exterior": "Tampilan luar dipertegas oleh New Front Grille dengan tiga baris palang warna abu-abu dipadu bingkai hitam, serta sistem penerangan New Sharp Headlamp Design yang tajam. Pada bagian buritan terdapat New Rear Side Design dengan garnish hitam elegan di sekitar emblem.",
+            "interior_comfort": "Dasbor kabin dihiasi dengan New Wooden Panel Ornament yang menambah kesan mewah. Seluruh kursi dibalut dengan material bahan Fabric warna hitam (New Seat Fabric Pattern & New Black Armrest). Kursi baris kedua menggunakan formasi menyambung (Bench Seat) yang memberikan kelapangan ekstra.",
+            "technology": "Untuk pusat informasi dan hiburan, kabin dibekali dengan New 9 inci Head Unit layar sentuh yang lebih besar dan telah mendukung fitur integrasi Smartphone Connectivity.",
+            "safety_specs": "Perlindungan berkendara diakomodasi oleh sistem pengereman ABS & EBD, kantung udara SRS Airbag pelindung area Front (D+P) dan lutut pengemudi (D-Knee). Ditunjang pula asisten manuver Vehicle Stability Control, penahan mundur Hill Start Assist Control, dan sensor kedipan rem darurat Emergency Brake Signal."
+        }
+    },
+    {
+        "tipe_mobil": "Toyota New Kijang Innova",
+        "varian": "2.4 G DIESEL M/T",
+        "harga": "432.500.000",
+        "spesifikasi": {
+            "segmentation": "MPV Keluarga tangguh bermesin diesel dengan kendali manual.",
+            "performance_specs": "Ditenagai oleh mesin diesel 2 GD FTV berkapasitas 2.393 cc (4 silinder in-line, 16 valve DOHC dengan VNT Intercooler). Menghasilkan tenaga maksimum 149 ps pada 3.400 rpm, dan torsi puncak sebesar 34,9 kgm pada rentang 1.200 - 2.800 rpm. Penyaluran tenaga ditangani oleh transmisi manual 5 percepatan (5 Speed M/T).",
+            "fuel_system_capacity_efficiency_estimates": "Memanfaatkan suplai bahan bakar sistem Injection With Common Rail. Kapasitas tangki bahan bakar Innova Reborn berada di kisaran 55 liter, dan dalam penggunaan nyata, terutama di dalam kota, konsumsi bahan bakar biasanya berada di kisaran 10 hingga 13 km per liter, sedangkan untuk perjalanan luar kota atau tol dapat mencapai sekitar 13 hingga 17 km per liter.",
+            "dimensions": "Panjang bodi membentang 4.735 mm, lebar 1.830 mm, tinggi 1.795 mm, serta jarak as roda (wheelbase) sejauh 2.750 mm. Jarak pijak tapak (tread) depan 1.540 mm dan belakang 1.540 mm. Dirancang sebagai MPV berkapasitas hingga 8 penumpang.",
+            "colour_option": "Super White 2, Silver Metallic, Gray Metallic, Attitude Black Mica.",
+            "chassis_drivetrain": "Menggunakan suspensi penyangga bagian depan Double Wishbone dengan Coil Spring dan Stabilizer, dan bagian belakang 4 Link dengan Coil Spring dan Lateral Road. Fasilitas pengereman mencakup Ventilated Disc di depan dan Drum di belakang. Dipasangkan velg desain warna ganda Two-Tone 16 inci dengan balutan ban 205/65 R16 (ban cadangan setara 205/65 R16).",
+            "exterior": "Wajah mobil tampil segar dengan New Front Grille (palang abu-abu dan detail bezel hitam) serta tatapan New Sharp Headlamp Design. Bagian belakang dihias profil New Rear Side Design beraksen garnish panel warna hitam.",
+            "interior_comfort": "Area panel instrumen mendapat pembaruan New Wooden Panel Ornament. Jok di dalam kabin menggunakan material Fabric warna hitam (New Seat Fabric Pattern & New Black Armrest). Penumpang di baris kedua ditunjang dengan posisi duduk lebar bermodel Bench Seat.",
+            "technology": "Memiliki fitur layar multimedia cerdas ukuran besar berupa New 9 inci Head Unit yang telah dilengkapi dengan dukungan Smartphone Connectivity untuk keperluan hiburan keluarga.",
+            "safety_specs": "Standar sistem keamanan meliputi kinerja rem ABS & EBD, modul perlindungan SRS Airbag (untuk letak Front D+P dan D-Knee), penyeimbang traksi Vehicle Stability Control, asisten medan miring Hill Start Assist Control, serta pendeteksi pengereman spontan Emergency Brake Signal."
+        }
+    },
+    {
+        "tipe_mobil": "Toyota All New Avanza",
+        "varian": "1.3 E M/T",
+        "harga": "272.100.000",
+        "spesifikasi": {
+            "segmentation": "MPV Keluarga",
+            "performance_specs": "Ditenagai oleh mesin 1NR-VE berkapasitas 1.329 cc (4 silinder in-line, 16 Valve DOHC dengan Dual VVT-i). Mampu menghasilkan tenaga maksimal 98 ps pada 6.000 rpm dan torsi 12,4 kgm pada 4.200 rpm. Menggunakan transmisi manual (M/T).",
+            "fuel_system_capacity_efficiency_estimates": "Sistem suplai bahan bakar menggunakan Injeksi Bahan Bakar Elektronik (Electronic Fuel Injection). Tangki bahan bakar memiliki kapasitas 43 liter dan konsumsi bahan bakar dalam penggunaan sehari-hari di Indonesia, terutama di dalam kota dengan kondisi lalu lintas padat, biasanya berada di kisaran 11 hingga 14 km per liter, sedangkan untuk perjalanan luar kota atau jalan tol dapat mencapai sekitar 15 hingga 18 km per liter.",
+            "dimensions": "Panjang keseluruhan 4.395 mm, lebar 1.730 mm, dan tinggi 1.665 mm. Jarak sumbu roda (wheelbase) 2.750 mm dengan ground clearance setinggi 195 mm. Ruang kabin dirancang untuk kapasitas 7 penumpang.",
+            "colour_option": "Purplish Silver, Gray Metallic, Black Metallic, Silver Mica Metallic, White.",
+            "chassis_drivetrain": "Menggunakan sistem penggerak roda depan. Suspensi depan mengandalkan MacPherson Strut dan suspensi belakang Torsion-Beam, keduanya dilengkapi Stabilizer (Fr + Rr). Sistem pengereman menggunakan cakram 15 inci (Disc) di depan dan tromol (Drum) di belakang, beserta rem parkir Center Lever (Manual). Dilengkapi velg 15 inci Alloy dengan ukuran ban 185/65 R15.",
+            "exterior": "Tampilan luar modern dengan desain grille depan yang kokoh serta lampu utama berteknologi LED.",
+            "interior_comfort": "Kabin lapang untuk 7 penumpang yang didukung fitur pengaturan kursi fleksibel (Long Sofa Mode) untuk kenyamanan istirahat, serta pengaturan sistem pendingin udara (AC).",
+            "technology": "Dilengkapi dengan Head Unit layar sentuh terintegrasi untuk kebutuhan hiburan penumpang selama perjalanan.",
+            "safety_specs": "Sistem keselamatan dan keamanan mencakup Anti-lock Braking System (ABS) + Electronic Brakeforce Distribution (EBD) + Brake Assist (BA), Vehicle Stability Control (VSC), Hill Start Assist (HSA), Seatbelt Warning, Alarm + Immobilizer, sistem pengait kursi anak ISOFIX, dan Dual Airbag (D+P)."
+        }
+    },
+    {
+        "tipe_mobil": "Toyota All New Avanza",
+        "varian": "1.3 E CVT",
+        "harga": "286.800.000",
+        "spesifikasi": {
+            "segmentation": "MPV Keluarga",
+            "performance_specs": "Ditenagai oleh mesin 1NR-VE berkapasitas 1.329 cc (4 silinder in-line, 16 Valve DOHC dengan Dual VVT-i). Memproduksi tenaga maksimal 98 ps pada 6.000 rpm dan torsi 12,4 kgm pada 4.200 rpm. Tenaga disalurkan melalui transmisi otomatis CVT yang halus.",
+            "fuel_system_capacity_efficiency_estimates": "Memanfaatkan Injeksi Bahan Bakar Elektronik (Electronic Fuel Injection) dengan tangki berkapasitas 43 liter dan konsumsi bahan bakar dalam penggunaan sehari-hari di Indonesia, terutama di dalam kota dengan kondisi lalu lintas padat, biasanya berada di kisaran 11 hingga 14 km per liter, sedangkan untuk perjalanan luar kota atau jalan tol dapat mencapai sekitar 15 hingga 18 km per liter.",
+            "dimensions": "Panjang 4.395 mm, lebar 1.730 mm, dan tinggi 1.665 mm. Memiliki jarak poros roda (wheelbase) 2.750 mm dan ground clearance 195 mm. Kapasitas ruang kabin dirancang optimal untuk 7 penumpang.",
+            "colour_option": "Purplish Silver, Gray Metallic, Black Metallic, Silver Mica Metallic, White.",
+            "chassis_drivetrain": "Sistem penggerak roda depan. Ayunan sasis ditopang suspensi MacPherson Strut (depan) dan Torsion-Beam (belakang) dengan kehadiran Stabilizer (Fr + Rr). Pengereman mengandalkan cakram 15 inci (Disc) di depan, tromol (Drum) di belakang, dan rem parkir Center Lever (Manual). Memakai velg 15 inci Alloy dibalut ban 185/65 R15.",
+            "exterior": "Eksterior gagah berkat desain grille depan tangguh serta penerangan optimal dari lampu utama LED.",
+            "interior_comfort": "Kenyamanan kabin 7 penumpang ditingkatkan melalui mode pengaturan jok Long Sofa Mode serta distribusi sirkulasi udara melalui AC yang merata.",
+            "technology": "Terdapat sistem hiburan Head Unit layar sentuh interaktif pada panel dasbor utama.",
+            "safety_specs": "Perlindungan terjamin berkat rem ABS+EBD+BA, keseimbangan elektronik Vehicle Stability Control (VSC), penahan tanjakan Hill Start Assist (HSA), peringatan sabuk pengaman Seatbelt Warning, Alarm + Immobilizer, ISOFIX, dan sepasang kantung udara (Airbag D+P)."
+        }
+    },
+    {
+        "tipe_mobil": "Toyota All New Avanza",
+        "varian": "1.5 G M/T",
+        "harga": "294.700.000",
+        "spesifikasi": {
+            "segmentation": "MPV Keluarga",
+            "performance_specs": "Menggunakan mesin yang lebih bertenaga yakni 2NR-VE berkapasitas 1.496 cc (4 silinder in-line, 16 Valve DOHC dengan Dual VVT-i). Mesin ini memproduksi daya puncak 106 ps pada 6.000 rpm serta torsi maksimal 14,4 kgm pada 4.200 rpm. Menggunakan transmisi manual (M/T).",
+            "fuel_system_capacity_efficiency_estimates": "Sistem pengabutan bahan bakar menggunakan Injeksi Bahan Bakar Elektronik (Electronic Fuel Injection) yang terhubung pada tangki berkapasitas 43 liter. Dalam penggunaan sehari-hari, konsumsi BBM di dalam kota biasanya berada di kisaran 10 hingga 13 km per liter, sedangkan untuk perjalanan luar kota atau tol berada di kisaran 14 hingga 17 km per liter.",
+            "dimensions": "Bodi memiliki panjang 4.395 mm, lebar 1.730 mm, dan tinggi 1.700 mm. Jarak as roda (wheelbase) mencapai 2.750 mm dengan ground clearance ekstra tinggi di angka 205 mm. Mampu membawa hingga 7 penumpang dengan nyaman.",
+            "colour_option": "Purplish Silver, Gray Metallic, Black Metallic, Silver Mica Metallic, White.",
+            "chassis_drivetrain": "Penggerak roda depan. Redaman ditopang oleh suspensi MacPherson Strut (depan) dan Torsion-Beam (belakang) lengkap dengan Stabilizer (Fr + Rr). Dilengkapi rem piringan cakram 15 inci (Disc) di roda depan, rem tromol di belakang, dan rem parkir Center Lever (Manual). Tampil lebih tegas dengan velg 16 inci Alloy with Machining dan profil ban 195/60 R16.",
+            "exterior": "Dilengkapi lampu utama berteknologi LED dengan desain fasia yang kokoh, serta kaca spion lipat otomatis.",
+            "interior_comfort": "Kabin luas untuk 7 penumpang dilengkapi dengan konfigurasi jok Long Sofa Mode dan kontrol pendingin udara tipe Digital AC.",
+            "technology": "Disematkan Head Unit layar sentuh, panel instrumen yang informatif, kemudahan menghidupkan mesin dengan Engine Start/Stop Button, serta kepraktisan Audio Steering Switch pada roda kemudi.",
+            "safety_specs": "Fitur keselamatan komprehensif meliputi ABS+EBD+BA, Vehicle Stability Control (VSC), Hill Start Assist (HSA), Seatbelt Warning, Alarm + Immobilizer, sensor parkir belakang (Rear Parking Sensor 2 titik), dudukan ISOFIX, dan perlindungan Airbag untuk pengemudi serta penumpang depan (D+P)."
+        }
+    },
+    {
+        "tipe_mobil": "Toyota All New Avanza",
+        "varian": "1.5 G CVT",
+        "harga": "309.100.000",
+        "spesifikasi": {
+            "segmentation": "MPV Keluarga",
+            "performance_specs": "Ditenagai mesin 2NR-VE berkapasitas 1.496 cc (4 silinder in-line, 16 Valve DOHC dengan Dual VVT-i). Menghasilkan daya maksimum 106 ps pada 6.000 rpm dan torsi 14,4 kgm pada putaran 4.200 rpm. Tenaga disirkulasikan secara responsif dan efisien melalui transmisi otomatis CVT.",
+            "fuel_system_capacity_efficiency_estimates": "Sistem suplai bensin Injeksi Bahan Bakar Elektronik (Electronic Fuel Injection) didukung volume tangki penyimpanan 43 liter. Dalam penggunaan sehari-hari, konsumsi BBM di dalam kota biasanya berada di kisaran 10 hingga 13 km per liter, sedangkan untuk perjalanan luar kota atau tol berada di kisaran 14 hingga 17 km per liter.",
+            "dimensions": "Memiliki dimensi panjang 4.395 mm, lebar 1.730 mm, dan tinggi 1.700 mm. Sumbu roda sejauh 2.750 mm dan jarak kolong tanah (ground clearance) 205 mm. Kapasitas kabin dioptimalkan untuk 7 penumpang.",
+            "colour_option": "Purplish Silver, Gray Metallic, Black Metallic, Silver Mica Metallic, White.",
+            "chassis_drivetrain": "Distribusi tenaga ke roda depan. Karakter kaki-kaki dikendalikan oleh suspensi MacPherson Strut (depan) dan Torsion-Beam (belakang) plus Stabilizer (Fr + Rr). Sektor pengereman menggunakan cakram 15 inci di depan, tromol di belakang, serta rem parkir Center Lever (Manual). Roda mengandalkan velg 16 inci Alloy with Machining (ban 195/60 R16).",
+            "exterior": "Wajah depan modern berkat grille tangguh dan Headlamp LED. Kaca spion dapat dilipat secara elektrik.",
+            "interior_comfort": "Kenyamanan interior 7 penumpang disajikan melalui fleksibilitas jok Long Sofa Mode, setir dengan desain ergonomis, serta instrumen penyejuk udara canggih Digital AC.",
+            "technology": "Fitur di kabin meliputi fasilitas Engine Start/Stop Button, Head Unit layar sentuh canggih, serta tombol pengatur audio di lingkar setir (Audio Steering Switch).",
+            "safety_specs": "Aspek perlindungan dibekali standar pengereman ABS+EBD+BA, penyeimbang traksi Vehicle Stability Control (VSC), asisten pendakian Hill Start Assist (HSA), peringatan Seatbelt Warning, pengamanan Alarm + Immobilizer, Rear Parking Sensor (2 titik), cantolan anak ISOFIX, dan Dual Airbag (D+P)."
+        }
+    },
+    {
+        "tipe_mobil": "Toyota All New Avanza",
+        "varian": "1.5 G CVT TSS",
+        "harga": "335.400.000",
+        "spesifikasi": {
+            "segmentation": "MPV Keluarga",
+            "performance_specs": "Ditenagai mesin 2NR-VE berkapasitas 1.496 cc (4 silinder in-line, 16 Valve DOHC dengan Dual VVT-i). Menghasilkan daya maksimum 106 ps pada 6.000 rpm dan torsi 14,4 kgm pada putaran 4.200 rpm. Tenaga disirkulasikan secara responsif dan efisien melalui transmisi otomatis CVT.",
+            "fuel_system_capacity_efficiency_estimates": "Sistem suplai bensin Injeksi Bahan Bakar Elektronik (Electronic Fuel Injection) didukung volume tangki penyimpanan 43 liter. Dalam penggunaan sehari-hari, konsumsi BBM di dalam kota biasanya berada di kisaran 10 hingga 13 km per liter, sedangkan untuk perjalanan luar kota atau tol berada di kisaran 14 hingga 17 km per liter.",
+            "dimensions": "Memiliki dimensi panjang 4.395 mm, lebar 1.730 mm, dan tinggi 1.700 mm. Sumbu roda sejauh 2.750 mm dan jarak kolong tanah (ground clearance) 205 mm. Kapasitas kabin dioptimalkan untuk 7 penumpang.",
+            "colour_option": "Purplish Silver, Gray Metallic, Black Metallic, Silver Mica Metallic, White.",
+            "chassis_drivetrain": "Distribusi tenaga ke roda depan. Karakter kaki-kaki dikendalikan oleh suspensi MacPherson Strut (depan) dan Torsion-Beam (belakang) plus Stabilizer (Fr + Rr). Sektor pengereman menggunakan cakram 15 inci di depan, tromol di belakang, serta rem parkir Center Lever (Manual). Roda mengandalkan velg 16 inci Alloy with Machining (ban 195/60 R16).",
+            "exterior": "Wajah depan modern berkat grille tangguh dan Headlamp LED. Kaca spion dapat dilipat secara elektrik.",
+            "interior_comfort": "Kenyamanan interior 7 penumpang disajikan melalui fleksibilitas jok Long Sofa Mode, setir dengan desain ergonomis, serta instrumen penyejuk udara canggih Digital AC.",
+            "technology": "Fitur di kabin meliputi fasilitas Engine Start/Stop Button, Head Unit layar sentuh canggih, serta tombol pengatur audio di lingkar setir (Audio Steering Switch).",
+            "safety_specs": "Memiliki perlindungan keselamatan paling mutakhir dan sangat lengkap. Dilengkapi paket keselamatan aktif Toyota Safety Sense (TSS) yang meliputi Pre-Collision System (PCS), Lane Departure Assist (LDA), Pedal Misoperation Control, Front Departure Alert, Rear Crossing Traffic Alert, dan Blind Spot Monitoring. Fitur ini turut dipadukan dengan jumlah pelindung yang lebih banyak yakni 6 Airbags (D+P+S+C). Fitur pendukung lainnya mencakup ABS+EBD+BA, Vehicle Stability Control (VSC), Hill Start Assist (HSA), Seatbelt Warning, Alarm + Immobilizer, Rear Parking Sensor (2 titik), dan ISOFIX."
+        }
+    }
+]
