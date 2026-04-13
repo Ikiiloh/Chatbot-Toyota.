@@ -1,9 +1,11 @@
 import streamlit as st
 import os
+import time
 import pymysql
 import certifi
 from dotenv import load_dotenv
 import google.generativeai as genai
+from google.api_core import exceptions as google_exceptions
 
 # --- 1. SETUP KREDENSIAL ---
 load_dotenv()
@@ -46,7 +48,7 @@ def cari_konteks_hybrid(pertanyaan_user):
     return konteks_terkumpul
 
 # --- 3. GENERATE JAWABAN GEMINI ---
-def tanya_gemini(pertanyaan, konteks_db):
+def tanya_gemini(pertanyaan, konteks_db, max_retry=2):
     model = genai.GenerativeModel('gemini-2.5-flash')
     
     system_prompt = f"""
@@ -70,11 +72,21 @@ def tanya_gemini(pertanyaan, konteks_db):
     5. STRUKTUR: Gunakan bullet points atau penomoran agar penjelasan fitur mudah dipahami.
     """
     
-    response = model.generate_content(
-        system_prompt + "\n\nPertanyaan Kustomer: " + pertanyaan,
-        generation_config=genai.GenerationConfig(temperature=0.2) # Sedikit suhu agar sales terasa lebih natural tapi tetap fokus data
-    )
-    return response.text
+    # Retry otomatis jika timeout (DeadlineExceeded)
+    for attempt in range(max_retry):
+        try:
+            response = model.generate_content(
+                system_prompt + "\n\nPertanyaan Kustomer: " + pertanyaan,
+                generation_config=genai.GenerationConfig(temperature=0.2),
+                request_options={"timeout": 120}  # Timeout 120 detik
+            )
+            return response.text
+        except google_exceptions.DeadlineExceeded:
+            if attempt < max_retry - 1:
+                time.sleep(2)  # Tunggu 2 detik sebelum retry
+                continue
+            else:
+                raise
 
 # --- 4. TAMPILAN WEB STREAMLIT ---
 st.set_page_config(page_title="Asisten Toyota Auto2000", page_icon="🚗")
@@ -95,11 +107,19 @@ if user_input := st.chat_input("Tanya spesifikasi atau harga di sini..."):
     
     with st.chat_message("assistant"):
         with st.spinner("Mencari di Database TiDB..."):
-            konteks = cari_konteks_hybrid(user_input)
-            jawaban = tanya_gemini(user_input, konteks)
-            st.markdown(jawaban)
-            
-            with st.expander("🔍 Intip Data TiDB (Khusus Dosen Penguji)"):
-                st.code(konteks, language="json")
+            try:
+                konteks = cari_konteks_hybrid(user_input)
+                jawaban = tanya_gemini(user_input, konteks)
+                st.markdown(jawaban)
+                
+                with st.expander("🔍 Intip Data TiDB (Khusus Dosen Penguji)"):
+                    st.code(konteks, language="json")
+                    
+            except google_exceptions.DeadlineExceeded:
+                jawaban = "⏳ Mohon maaf, server AI sedang sibuk dan membutuhkan waktu lebih lama. Silakan coba kirim pertanyaan Anda sekali lagi."
+                st.warning(jawaban)
+            except Exception as e:
+                jawaban = f"⚠️ Terjadi kesalahan: silakan coba lagi dalam beberapa saat."
+                st.error(jawaban)
             
     st.session_state.messages.append({"role": "assistant", "content": jawaban})
