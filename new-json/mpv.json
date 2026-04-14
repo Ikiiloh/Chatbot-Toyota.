@@ -114,7 +114,7 @@
             "chassis_drivetrain": "Penggerak roda depan 2WD (FF). Suspensi MacPherson Strut (Depan) serta Torsion Beam (Belakang). Pengereman mengusung cakram 16 inci penuh (DISC) dengan Electric Parking Brake dan Brake Hold. Dilengkapi velg Alloy 17 inci dengan spesifikasi ban 215/60 R17.",
             "exterior": "Visual dipertegas velg Alloy 17 inci bercat perak yang atraktif dan lampu belakang modern Rear Combination Lamp.",
             "interior_comfort": "Kabin depan dihiasi Remarkable Dashboard dua warna (two tone) berbalut bantalan empuk Soft Pad. Terdapat layar 4.2 inci TFT MID, cahaya ambien Illumination Light Instrument Panel, dan pendingin Digital Auto AC.",
-            "technology": "Disematkan layar 10 inci Head Unit (Smartphone Connectivity & NFC e Toll). Baris penumpang mendapat sistem hiburan 10 inci Dual Rear Seat Entertainment dengan In Car connectivity independen.",
+            "technology": "Disematkan layar 10 inci Head Unit (Smartphone Connectivity & NFC e Toll) dan sudah memuat In Car WiFi & Entertainment System. Baris penumpang mendapat sistem hiburan 10 inci Dual Rear Seat Entertainment dengan In Car connectivity independen.",
             "safety_specs": "Fasilitas keselamatan mencakup Dual SRS Airbag (Front D+P), Vehicle Stability Control (VSC), Hill Start Assist (HSA), Parking Sensor dengan Corner Sensor, Parking Camera, dudukan kursi anak ISOFIX + Tether, dan Smart Entry. Dilengkapi layanan T Intouch (Safety & Convenience) yang meliputi Find My Car, Guest Driver Alert, Stolen Vehicle Tracking, Time Fencing, Vehicle Info, Emergency Road Assistance, Inquiry & Support Center, Driving Report, Geofencing, Speed & Idle Alert, dan Remote Immobilizer."
         }
     },
@@ -288,4 +288,378 @@
             "safety_specs": "Memiliki perlindungan keselamatan paling mutakhir dan sangat lengkap. Dilengkapi paket keselamatan aktif Toyota Safety Sense (TSS) yang meliputi Pre-Collision System (PCS), Lane Departure Assist (LDA), Pedal Misoperation Control, Front Departure Alert, Rear Crossing Traffic Alert, dan Blind Spot Monitoring. Fitur ini turut dipadukan dengan jumlah pelindung yang lebih banyak yakni 6 Airbags (D+P+S+C). Fitur pendukung lainnya mencakup ABS+EBD+BA, Vehicle Stability Control (VSC), Hill Start Assist (HSA), Seatbelt Warning, Alarm + Immobilizer, Rear Parking Sensor (2 titik), dan ISOFIX."
         }
     },
+    {
+        "tipe_mobil": "Toyota New Veloz Hybrid EV",
+        "varian": "1.5 V HEV",
+        "harga": "300.000.000",
+        "spesifikasi": {
+            "segmentation": "MPV Keluarga berteknologi Hybrid EV yang menonjolkan efisiensi bahan bakar dan kepraktisan kabin.",
+            "performance_specs": "Menggunakan mesin Hybrid 2NR-VEX berkapasitas 1.496 cc (4 Cylinders, Inline 16-valves DOHC dengan Dual-VVT-i). Mesin bensin memproduksi daya 91 PS pada 5.500 rpm dan torsi 121 Nm, sedangkan motor elektrik memberikan daya 80 PS dan torsi 141 Nm. Sinergi ini menghasilkan tenaga maksimal sistem (System Max Power) sebesar 111 PS. Transmisi menggunakan CVT dengan pilihan mode berkendara EV Mode murni.",
+            "fuel_system_capacity_efficiency_estimates": "Sistem bahan bakar Injeksi Elektronik (Electronic Fuel Injection) dengan kapasitas tangki 43 liter. Kendaraan mampu mengisi daya baterai secara mandiri (Self-Charging) dengan sertifikasi emisi EURO 4. Estimasi konsumsi bahan bakar: Dalam kota 25 hingga 30 km/l, dan Luar kota / tol 19 hingga 22 km/l.",
+            "dimensions": "Panjang bodi 4.475 mm, lebar 1.750 mm, tinggi 1.700 mm, dan jarak poros roda (wheelbase) 2.750 mm. Jarak terendah ke tanah (ground clearance) setinggi 205 mm. Ruang kabin dirancang lega untuk kapasitas 7 penumpang.",
+            "colour_option": "Platinum White Pearl, Silver Metallic, Dark Red Mica, Black Metallic, Silver Metallic/Black, Dark Red Mica/Black, Platinum White Pearl/Black.",
+            "chassis_drivetrain": "Sistem penggerak roda depan (FWD) dengan kemudi Electric Power Steering (EPS) Tilt & Telescopic. Suspensi depan menggunakan MacPherson Strut dan suspensi belakang Torsion Beam. Pengereman memakai rem cakram (16 inci Disc) di depan dan belakang, lengkap dengan Electric Parking Brake (EPB) serta Brake Hold. Roda menggunakan velg Alloy Machining berukuran 17 inci dengan ban 205/50 R17.",
+            "exterior": "Tampilan modern dengan lencana HEV Emblem dan desain lampu belakang memanjang Progressive Rear Combination Lamp.",
+            "interior_comfort": "Kabin lapang bernuansa elegan lewat Sleek New Black Interior Panel dan jok berlapis Sophisticated Black Seat Material. Menawarkan kenyamanan istirahat maksimal dengan konfigurasi Long Sofa Mode. Terdapat pendingin ruang Auto A/C otomatis dan setir berlapis bahan kulit.",
+            "technology": "Kokpit dilengkapi layar indikator Digital TFT Multi Information Display, kemudahan menghidupkan mesin dengan Push Start Button, bantalan pengisi daya nirkabel Wireless Charger, dan setir multifungsi dengan Audio & Drive Mode Switch.",
+            "safety_specs": "Sistem keamanan ditunjang oleh 2 Airbags (Driver + Passenger), Anti Lock Braking System (ABS) + Electronic Braking Distribution (EBD) + Brake Assist (BA), Vehicle Stability Control (VSC), Hill Start Assist (HSA), sinyal rem darurat Emergency Brake Signal (EBS), sensor parkir Front & Rear Clearance Sonar, serta perlindungan anti-maling Alarm & Immobilizer. Kepemilikan didukung secara penuh oleh Vehicle Warranty (Garansi Kendaraan) selama 6 tahun atau 160.000 km dan Garansi Baterai Hybrid selama 8 tahun atau 160.000 km. Terdapat pula fasilitas Pemeriksaan baterai Hybrid gratis setiap 6 bulan dari Toyota untuk model Hybrid EV dengan rentang usia 3-5 tahun atau 50.000-100.000 km yang telah melakukan servis berkala di bengkel resmi Toyota."
+        }
+    },
+    {
+        "tipe_mobil": "Toyota New Veloz Hybrid EV",
+        "varian": "1.5 Q HEV",
+        "harga": "320.000.000",
+        "spesifikasi": {
+            "segmentation": "MPV Keluarga Hybrid premium yang menawarkan tambahan fasilitas hiburan cerdas dan visibilitas berkendara tingkat lanjut.",
+            "performance_specs": "Ditenagai mesin Hybrid 2NR-VEX berkapasitas 1.496 cc (4 Cylinders, Inline 16-valves DOHC dengan Dual-VVT-i) berstandar EURO 4. Tenaga mesin konvensional 91 PS (torsi 121 Nm) dikawinkan dengan motor listrik 80 PS (torsi 141 Nm) untuk menghasilkan daya sistem terpadu sebesar 111 PS. Disalurkan via transmisi CVT dengan dukungan tombol EV Mode.",
+            "fuel_system_capacity_efficiency_estimates": "Sistem bahan bakar Injeksi Elektronik (Electronic Fuel Injection) dengan kapasitas tangki 43 liter. Kendaraan mampu mengisi daya baterai secara mandiri (Self-Charging) dengan sertifikasi emisi EURO 4. Estimasi konsumsi bahan bakar: Dalam kota 25 hingga 30 km/l, dan Luar kota / tol 19 hingga 22 km/l.",
+            "dimensions": "Panjang keseluruhan 4.475 mm, lebar 1.750 mm, tinggi 1.700 mm, sumbu roda 2.750 mm, dan ground clearance setinggi 205 mm. Dioptimalkan untuk mengangkut 7 penumpang dengan sangat nyaman.",
+            "colour_option": "Platinum White Pearl, Silver Metallic, Dark Red Mica, Black Metallic, Silver Metallic/Black, Dark Red Mica/Black, Platinum White Pearl/Black.",
+            "chassis_drivetrain": "Kendali roda depan (FWD) lewat kemudi EPS Tilt & Telescopic. Ayunan sasis ditopang suspensi MacPherson Strut (depan) dan Torsion Beam (belakang). Keempat roda dibekali rem cakram (depan 16 inci Disc) yang terintegrasi Electric Parking Brake dan Auto Brake Hold. Memakai velg Alloy Machining 17 inci dengan ukuran ban 205/50 R17.",
+            "exterior": "Tampil berkelas dengan HEV Emblem, Progressive Rear Combination Lamp, serta kaca spion lipat otomatis Auto Retractable Mirror yang disertai pendaran lampu bawah New Foot Lamp.",
+            "interior_comfort": "Dasbor menggunakan Sleek New Black Interior Panel dipadukan dengan jok warna gelap Sophisticated Black Seat Material. Penumpang mendapat ruang kaki ekstra dengan fungsi jok rebah Long Sofa Mode. Kenyamanan suhu dijaga oleh pendingin Auto A/C. Roda kemudi tampil mewah berkat balutan lapisan kulit asli.",
+            "technology": "Disematkan panel Digital TFT Multi Information Display, Push Start Button, tatakan Wireless Charger, dan setir berfitur Audio & Drive Mode Switch. Hiburan berpusat pada layar besar New Integrated 10 Inci Head Unit dengan Advanced Smartphone Connectivity yang memiliki kemampuan In-Car Connectivity (OTT Streaming Information, Web Browser, dan fitur NFC untuk Top Up Prepaid Card).",
+            "safety_specs": "Fitur perlindungan standar mencakup 2 Airbags (Driver + Passenger), rem mutakhir ABS+EBD+BA, Vehicle Stability Control (VSC), Hill Start Assist (HSA), Emergency Brake Signal (EBS), Front & Rear Clearance Sonar, Alarm & Immobilizer, serta penambahan visibilitas kamera sirkular memutar New All Round View Camera. Pemilik mobil mendapatkan Peace of Mind berkat perlindungan ganda: Vehicle Warranty (Garansi Kendaraan) selama 6 tahun atau 160.000 km dan Garansi Baterai Hybrid selama 8 tahun atau 160.000 km. Nikmati juga Pemeriksaan baterai Hybrid gratis setiap 6 bulan dari Toyota untuk model Hybrid EV dengan rentang usia 3-5 tahun atau 50.000-100.000 km yang telah melakukan servis berkala di bengkel resmi Toyota."
+        }
+    },
+    {
+        "tipe_mobil": "Toyota New Veloz Hybrid EV",
+        "varian": "1.5 Q HEV MODELLISTA",
+        "harga": "350.000.000",
+        "spesifikasi": {
+            "segmentation": "MPV Keluarga Hybrid bergaya sporty dan agresif dengan tambahan eksklusif paket aerodinamika bodi Modellista.",
+            "performance_specs": "Mengandalkan mesin bensin Hybrid 2NR-VEX 1.496 cc. Output mekanis 91 PS dipadu motor listrik 80 PS menyajikan letupan daya gabungan terpadu sebesar 111 PS. Akselerasi disalurkan oleh transmisi otomatis CVT yang memiliki intervensi berkendara hening khusus EV Mode.",
+            "fuel_system_capacity_efficiency_estimates": "Sistem bahan bakar Injeksi Elektronik (Electronic Fuel Injection) dengan kapasitas tangki 43 liter. Kendaraan mampu mengisi daya baterai secara mandiri (Self-Charging) dengan sertifikasi emisi EURO 4. Estimasi konsumsi bahan bakar: Dalam kota 25 hingga 30 km/l, dan Luar kota / tol 19 hingga 22 km/l.",
+            "dimensions": "Penambahan aksesori bodi menghasilkan dimensi yang lebih lebar dan panjang, dengan panjang total 4.512 mm, lebar 1.780 mm, dan tinggi 1.700 mm. Wheelbase tetap di angka 2.750 mm dengan ground clearance 205 mm. Kapasitas duduk dikonfigurasi lapang untuk 7 penumpang penuh.",
+            "colour_option": "Platinum White Pearl, Silver Metallic, Dark Red Mica, Black Metallic, Silver Metallic/Black, Dark Red Mica/Black, Platinum White Pearl/Black.",
+            "chassis_drivetrain": "Didorong penggerak roda depan (FWD) bersuspensi MacPherson Strut dan Torsion Beam. Pengereman dijamin oleh cakram penuh depan belakang beserta Electric Parking Brake dan Auto Brake Hold. Nuansa kaki-kaki tampil jauh lebih eksklusif menggunakan velg Alloy Black berukuran 17 inci (205/50 R17).",
+            "exterior": "Visual paling mendominasi berkat balutan bodi kit Modellista yang meliputi: New Front Underguard, New Rear Underguard, New Over Fender & Side Body Molding, New Front Grille, New Headlamp, New Foglamp Bezel, New Black Outer Mirror Cover, New Black Door Handle, New Dark Chrome Ornament, serta nuansa atap New Two Tone Roof. Terdapat juga panel Full Backdoor LED, emblem HEV, antena sirip hiu New Black Shark Fin, Side Visor, dan spion otomatis Auto Retractable Mirror with New Foot Lamp.",
+            "interior_comfort": "Interior dipertegas paduan Sleek New Black Interior Panel dan jok Sophisticated Black Seat Material. Dilengkapi bantalan tangan mewah New Bold Leisure Soft Pad Door Armrest with Full Grip. Kabin sangat akomodatif untuk relaksasi berkat Long Sofa Mode, pendingin kabin otomatis Auto A/C, dan lingkar setir kulit.",
+            "technology": "Kokpit pintar dengan Digital TFT Multi Information Display, kemudahan Push Start Button, pad Wireless Charger, serta kendali Audio & Drive Mode Switch. Layar multimedia menggunakan New Integrated 10 Inci Head Unit (tersedia fungsi NFC Top Up e-Toll, Web Browser, OTT Streaming). Baris penumpang tengah secara khusus difasilitasi layar hiburan gantung Rear Seat Entertainment.",
+            "safety_specs": "Fasilitas keamanan ditunjang oleh 2 Airbags (Driver + Passenger), pengereman otomatis terintegrasi ABS+EBD+BA, penyeimbang sasis Vehicle Stability Control (VSC), asisten tanjakan Hill Start Assist (HSA), modul peringatan rem darurat EBS, Front & Rear Clearance Sonar, kamera memutar 360 derajat All Round View Camera, dan unit pengaman Alarm & Immobilizer. Kepemilikan kendaraan semakin tenang dengan Vehicle Warranty (Garansi Kendaraan) selama 6 tahun atau 160.000 km dan Garansi Baterai Hybrid selama 8 tahun atau 160.000 km. Turut didukung program Pemeriksaan baterai Hybrid gratis setiap 6 bulan dari Toyota untuk model Hybrid EV dengan rentang usia 3-5 tahun atau 50.000-100.000 km yang telah melakukan servis berkala di bengkel resmi Toyota."
+        }
+    },
+    {
+        "tipe_mobil": "Toyota New Veloz Hybrid EV",
+        "varian": "1.5 Q HEV MODELLISTA TSS",
+        "harga": "390.000.000",
+        "spesifikasi": {
+            "segmentation": "Varian Flagship (Kasta Tertinggi) MPV Hybrid Keluarga yang mempertemukan gaya aerodinamis Modellista dengan sistem radar keselamatan kognitif paling cerdas (Toyota Safety Sense) serta ekosistem pintar T-Intouch.",
+            "performance_specs": "Dijejali powertrain Hybrid generasi ke-4 berkode 2NR-VEX (1.496 cc). Sinergi mesin bensin konvensional (91 PS) dan motor elektrik (80 PS) meracik daya hibrida terpadu maksimal sebesar 111 PS. Dioperasikan melalui tuas transmisi CVT mulus dengan opsi kelistrikan murni EV Mode.",
+            "fuel_system_capacity_efficiency_estimates": "Sistem bahan bakar Injeksi Elektronik (Electronic Fuel Injection) dengan kapasitas tangki 43 liter. Kendaraan mampu mengisi daya baterai secara mandiri (Self-Charging) dengan sertifikasi emisi EURO 4. Estimasi konsumsi bahan bakar: Dalam kota 25 hingga 30 km/l, dan Luar kota / tol 19 hingga 22 km/l.",
+            "dimensions": "Panjang bodi agresif mencapai 4.512 mm, lebar 1.780 mm, tinggi 1.700 mm. Desain kabin bervolume ekstra dengan sumbu roda 2.750 mm dan ground clearance 205 mm. Konfigurasi tempat duduk dirancang nyaman untuk mengakomodasi 7 penumpang.",
+            "colour_option": "Platinum White Pearl, Silver Metallic, Dark Red Mica, Black Metallic, Silver Metallic/Black, Dark Red Mica/Black, Platinum White Pearl/Black.",
+            "chassis_drivetrain": "Kendali traksi depan (FWD) bertumpu pada lengan suspensi MacPherson Strut dan Torsion Beam. Didukung kemampuan pengereman empat roda cakram penuh dengan fungsi Electric Parking Brake dan Brake Hold. Profil roda tampak sporty dan premium lewat velg Alloy Black 17 inci berbengkel ban 205/50 R17.",
+            "exterior": "Menampilkan paket lengkap bodi aerodinamis Modellista (New Front/Rear Underguard, New Over Fender & Side Body Molding, New Front Grille, New Headlamp, New Foglamp Bezel, New Black Outer Mirror Cover, New Black Door Handle, dan New Two Tone Roof). Disempurnakan oleh panel Full Backdoor LED, emblem kebanggaan HEV, Dark Chrome Ornament, Black Shark Fin, Side Visor, dan spion lipat elektrik Auto Retractable Mirror with New Foot Lamp.",
+            "interior_comfort": "Kabin eksklusif menggunakan perpaduan Sleek New Black Interior Panel, jok kulit premium Sophisticated Black Seat Material, dan sandaran tangan empuk New Bold Leisure Soft Pad Door Armrest with Full Grip. Kepraktisan istirahat dipastikan oleh kursi fleksibel Long Sofa Mode, pengendali suhu presisi Auto A/C, dan desain setir kulit yang nyaman digenggam.",
+            "technology": "Terintegrasi sistem hiburan masif New Integrated 10 Inci Head Unit (mendukung fungsi NFC Prepaid Card Top Up, Web Browser, dan OTT Streaming), fasilitas layar penumpang belakang Rear Seat Entertainment, panel instrumen Digital TFT Multi Information Display, Push Start Button, Wireless Charger, dan setir multifungsi Audio & Drive Mode Switch.",
+            "safety_specs": "Satu-satunya varian puncak yang dibekali paket asisten radar pintar Toyota Safety Sense (TSS) meliputi: Pre-Collision Warning & Pre-Collision Braking, Adaptive Cruise Control, New Lane Departure Warning & Lane Departure Prevention, Front Departure Alert, Pedal Misoperation Control, serta Rear Cross Traffic Alert (RCTA). Keselamatan aktif disempurnakan dengan sensor titik buta Blind Spot Monitoring (BSM) dan barikade perlindungan penuh 6 Airbags (Driver+Passenger+Side+Curtain). Layanan ekosistem digital mToyota (T-Intouch) hadir eksklusif di tipe ini, mencakup fitur Find My Car, Time Fencing, Emergency Road Assistance, Inquiry & Support Center, Driving Report, Guest Driver Alert, Geofencing, Vehicle Info, Speed & Idle Alert, Concierge Service, serta Messages Center. Fitur keselamatan dasar tetap menyertakan All Round View Camera, ABS+EBD+BA, VSC, HSA, EBS, Clearance Sonar, serta Alarm & Immobilizer. Perlindungan purna jual dijamin secara menyeluruh dengan Vehicle Warranty (Garansi Kendaraan) 6 tahun/160.000 km, Garansi Baterai Hybrid 8 tahun/160.000 km, ditambah kenyamanan Pemeriksaan baterai Hybrid gratis setiap 6 bulan dari Toyota untuk model Hybrid EV dengan rentang usia 3-5 tahun atau 50.000-100.000 km yang telah melakukan servis berkala di bengkel resmi."
+        }
+    },
+    {
+        "tipe_mobil": "Toyota New Calya",
+        "varian": "1.2 E M/T STD",
+        "harga": "199.200.000",
+        "spesifikasi": {
+            "segmentation": "Varian paling basic dengan fitur sangat minim yang ditujukan sebagai kendaraan operasional (versi fleet) untuk penggunaan budget rendah.",
+            "performance_specs": "Ditenagai oleh mesin 3NR-VE berkapasitas 1.197 cc (In-line 4 Cylinder, 16 Valve, DOHC, Dual VVT-i). Memproduksi daya maksimal sebesar 88 ps pada 6.000 rpm dan torsi puncak 11 kgm pada putaran 4.200 rpm. Distribusi tenaga dikelola oleh transmisi manual 5 percepatan (5 M/T).",
+            "fuel_system_capacity_efficiency_estimates": "Berbahan bakar bensin dengan tangki berkapasitas 36 liter. Estimasi efisiensi konsumsi bahan bakar mencapai 12 hingga 15 km/L untuk penggunaan dalam kota, serta 16 hingga 20 km/L untuk rute luar kota atau jalan tol.",
+            "dimensions": "Memiliki dimensi panjang 4.110 mm, lebar 1.655 mm, dan tinggi 1.600 mm. Memiliki jarak poros roda (wheelbase) sejauh 2.525 mm dan jarak terendah ke tanah (ground clearance) 180 mm. Ruang kabin dirancang untuk mengakomodasi kapasitas 7 penumpang.",
+            "colour_option": "White, Silver Metallic, Grey Metallic, Black, Red, Orange Metallic, Bronze Mica Metallic.",
+            "chassis_drivetrain": "Mengadopsi penggerak roda depan (Front Wheel Drive) dengan dukungan kemudi Electronic Power Steering (EPS). Ayunan suspensi depan menggunakan MacPherson Strut dengan Coil Spring dan Stabilizer, sedangkan belakang memakai Semi Independent Torsion Axle Beam dengan Coil Spring. Rem mengandalkan cakram berventilasi (13 inci Disc) di depan dan tromol (Drum) di belakang. Menggunakan velg kaleng (standar) berukuran 14 inci dengan ban 175/65 R14 yang sangat fungsional.",
+            "exterior": "Tampilan luar dipertegas oleh New Smoked Headlamp yang atraktif, bingkai kisi-kisi New Front MID Grille Design, dan antena atap New Dynamic Shark Fin Antenna.",
+            "interior_comfort": "Kabin fungsional dengan interior yang jauh lebih sederhana, dirancang untuk keandalan peruntukan mobilitas operasional.",
+            "technology": "Sistem multimedia didukung oleh New Advanced Audio Head Unit tipe AVX yang terhubung dengan kelengkapan nirkabel Bluetooth.",
+            "safety_specs": "Perlindungan standar meliputi Dual SRS Airbags, Rear Parking Sensor, kunci Immobilizer Key, sabuk pengaman 3-Point Seatbelt untuk seluruh penumpang, pengait kursi bayi berstandar internasional ISOFIX, dan Anti-Theft System. Sebagai varian paling basic, tipe ini belum dilengkapi dengan fitur pengereman ABS."
+        }
+    },
+    {
+        "tipe_mobil": "Toyota New Calya",
+        "varian": "1.2 E M/T",
+        "harga": "202.500.000",
+        "spesifikasi": {
+            "segmentation": "MPV Keluarga. Versi yang lebih lengkap dari tipe STD dengan kelengkapan fitur dan interior yang jauh lebih usable serta nyaman untuk perjalanan keluarga.",
+            "performance_specs": "Ditenagai oleh mesin 3NR-VE berkapasitas 1.197 cc (In-line 4 Cylinder, 16 Valve, DOHC, Dual VVT-i). Memproduksi daya maksimal sebesar 88 ps pada 6.000 rpm dan torsi puncak 11 kgm pada putaran 4.200 rpm. Distribusi tenaga dikelola oleh transmisi manual 5 percepatan (5 M/T).",
+            "fuel_system_capacity_efficiency_estimates": "Berbahan bakar bensin dengan tangki berkapasitas 36 liter. Estimasi efisiensi konsumsi bahan bakar mencapai 12 hingga 15 km/L untuk penggunaan dalam kota, serta 16 hingga 20 km/L untuk rute luar kota atau jalan tol.",
+            "dimensions": "Memiliki dimensi panjang 4.110 mm, lebar 1.655 mm, dan tinggi 1.600 mm. Memiliki jarak poros roda (wheelbase) sejauh 2.525 mm dan jarak terendah ke tanah (ground clearance) 180 mm. Ruang kabin dirancang untuk mengakomodasi kapasitas 7 penumpang.",
+            "colour_option": "White, Silver Metallic, Grey Metallic, Black, Red, Orange Metallic, Bronze Mica Metallic.",
+            "chassis_drivetrain": "Mengadopsi penggerak roda depan (Front Wheel Drive) dengan dukungan kemudi Electronic Power Steering (EPS). Ayunan suspensi depan menggunakan MacPherson Strut dengan Coil Spring dan Stabilizer, sedangkan belakang memakai Semi Independent Torsion Axle Beam dengan Coil Spring. Rem mengandalkan cakram berventilasi (13 inci Disc) di depan dan tromol (Drum) di belakang. Kaki-kaki tampil lebih elegan dengan pemakaian velg New Alloy Wheel 14 inci berbalut ban 175/65 R14.",
+            "exterior": "Tampilan luar dipertegas oleh New Smoked Headlamp yang atraktif, bingkai kisi-kisi New Front MID Grille Design, dan antena atap New Dynamic Shark Fin Antenna.",
+            "interior_comfort": "Kabin terasa sedikit lebih nyaman dan eksklusif untuk penumpang karena mendapatkan sentuhan warna New Bolder Interior Colour yang maskulin pada areanya.",
+            "technology": "Sistem multimedia didukung oleh New Advanced Audio Head Unit tipe AVX yang dilengkapi fitur konektivitas Bluetooth.",
+            "safety_specs": "Sangat bisa diandalkan untuk perlindungan keluarga karena sudah mendapat asisten fitur pengereman cerdas Anti-lock Braking System (ABS) dan Electronic Brakeforce Distribution (EBD). Diikuti oleh proteksi Dual SRS Airbags, Rear Parking Sensor, pelindung pencurian Immobilizer Key, 3-Point Seatbelt untuk semua bangku, ISOFIX, dan Anti-Theft System."
+        }
+    },
+    {
+        "tipe_mobil": "Toyota New Calya",
+        "varian": "1.2 G M/T",
+        "harga": "208.200.000",
+        "spesifikasi": {
+            "segmentation": "MPV Keluarga tingkat lanjut yang menyajikan keindahan eksterior dan kelengkapan teknologi hiburan serta kemudahan parkir yang modern.",
+            "performance_specs": "Bersenjatakan mesin 3NR-VE berkapasitas 1.197 cc (In-line 4 Cylinder, 16 Valve, DOHC, Dual VVT-i). Daya maksimum mencapai 88 ps pada 6.000 rpm diiringi torsi 11 kgm di putaran 4.200 rpm. Mengandalkan sistem transmisi manual 5 percepatan (5 M/T).",
+            "fuel_system_capacity_efficiency_estimates": "Sistem suplai bensin memiliki kapasitas tangki 36 liter. Membawa estimasi konsumsi bahan bakar 12 hingga 15 km/L untuk rute dalam kota, dan 16 hingga 20 km/L untuk rute luar kota atau jalan tol.",
+            "dimensions": "Panjang total berada di 4.110 mm, lebar 1.655 mm, dan tinggi 1.600 mm. Membentang dengan jarak wheelbase 2.525 mm serta ground clearance tinggi 180 mm. Kabin lapang diatur secara optimal untuk 7 penumpang.",
+            "colour_option": "White, Silver Metallic, Grey Metallic, Black, Red, Orange Metallic, Bronze Mica Metallic.",
+            "chassis_drivetrain": "Didorong oleh roda depan (FWD) lewat kemudi EPS yang responsif. Kestabilan lebih prima karena suspensi belakangnya diperkuat Stabilizer (Semi Independent Torsion Axle Beam with Coil Spring and Stabilizer) menemani suspensi depan MacPherson Strut. Sistem rem depan berupa cakram ventilasi 13 inci dan tromol di bagian belakang. Menapak gagah menggunakan velg New Alloy Wheel 14 inci dan ban 175/65 R14.",
+            "exterior": "Menghadirkan pesona ekstra lewat Retractable Outer Mirror yang bisa membuka dan menutup secara otomatis. Turut mengandalkan New Smoked Headlamp, bingkai krom modern dari New Front MID Grille Design, beserta antena atap New Dynamic Shark Fin Antenna.",
+            "interior_comfort": "Suasana kabin memancarkan nuansa New Bolder Interior Colour yang tampil eksklusif dan selaras pada seluruh bagian interior.",
+            "technology": "Kemudi memiliki fitur pengendali musik yang lebih mudah lewat Audio Steering Switch. Pusat interaksi multimedia hadir melalui layar sentuh New Advanced Audio Head Unit tipe AVX yang dilengkapi kemudahan koneksi Mirroring dari smartphone.",
+            "safety_specs": "Sangat aman sewaktu bermanuver mundur karena sudah mengintegrasikan New Rear Parking Camera yang menampilkan lingkungan belakang secara visual. Perlindungan ekstra dipastikan oleh pengereman ABS + EBD, kehadiran Dual SRS Airbags, Rear Parking Sensor, pengunci Anti-maling Immobilizer Key, 3-Point Seatbelt komprehensif, standar kursi bayi ISOFIX, serta fitur Anti-Theft System."
+        }
+    },
+    {
+        "tipe_mobil": "Toyota New Calya",
+        "varian": "1.2 G A/T",
+        "harga": "222.100.000",
+        "spesifikasi": {
+            "segmentation": "MPV Keluarga tingkat lanjut yang menyajikan keindahan eksterior dan kelengkapan teknologi parkir modern, didukung kenyamanan bebas pegal lewat transmisi otomatis.",
+            "performance_specs": "Bersenjatakan mesin 3NR-VE berkapasitas 1.197 cc (In-line 4 Cylinder, 16 Valve, DOHC, Dual VVT-i). Daya maksimum mencapai 88 ps pada 6.000 rpm diiringi torsi 11 kgm di putaran 4.200 rpm. Dirancang praktis dan anti lelah untuk kemacetan berkat sistem transmisi otomatis 4 percepatan (4 A/T).",
+            "fuel_system_capacity_efficiency_estimates": "Sistem suplai bensin memiliki kapasitas tangki 36 liter. Membawa estimasi konsumsi bahan bakar 12 hingga 15 km/L untuk rute dalam kota, dan 16 hingga 20 km/L untuk rute luar kota atau jalan tol.",
+            "dimensions": "Panjang total berada di 4.110 mm, lebar 1.655 mm, dan tinggi 1.600 mm. Membentang dengan jarak wheelbase 2.525 mm serta ground clearance tinggi 180 mm. Kabin lapang diatur secara optimal untuk 7 penumpang.",
+            "colour_option": "White, Silver Metallic, Grey Metallic, Black, Red, Orange Metallic, Bronze Mica Metallic.",
+            "chassis_drivetrain": "Didorong oleh roda depan (FWD) lewat kemudi EPS yang responsif. Kestabilan lebih prima karena suspensi belakangnya diperkuat Stabilizer (Semi Independent Torsion Axle Beam with Coil Spring and Stabilizer) menemani suspensi depan MacPherson Strut. Sistem rem depan berupa cakram ventilasi 13 inci dan tromol di bagian belakang. Menapak gagah menggunakan velg New Alloy Wheel 14 inci dan ban 175/65 R14.",
+            "exterior": "Menghadirkan pesona ekstra lewat Retractable Outer Mirror yang bisa membuka dan menutup secara otomatis. Turut mengandalkan New Smoked Headlamp, bingkai krom modern dari New Front MID Grille Design, beserta antena atap New Dynamic Shark Fin Antenna.",
+            "interior_comfort": "Suasana kabin memancarkan nuansa New Bolder Interior Colour yang tampil eksklusif dan selaras pada seluruh bagian interior.",
+            "technology": "Kemudi memiliki fitur pengendali musik yang lebih mudah lewat Audio Steering Switch. Pusat interaksi multimedia hadir melalui layar sentuh New Advanced Audio Head Unit tipe AVX yang dilengkapi kemudahan koneksi cerdas Mirroring dari smartphone.",
+            "safety_specs": "Sangat aman sewaktu bermanuver mundur karena sudah mengintegrasikan New Rear Parking Camera yang menampilkan lingkungan belakang secara visual. Perlindungan ekstra dipastikan oleh pengereman ABS + EBD, kehadiran Dual SRS Airbags, Rear Parking Sensor, pengunci Anti-maling Immobilizer Key, 3-Point Seatbelt komprehensif, standar kursi bayi ISOFIX, serta fitur Anti-Theft System."
+        }
+    },
+    {
+        "tipe_mobil": "Toyota All New Voxy",
+        "varian": "2.0 CVT",
+        "harga": "644.800.000",
+        "spesifikasi": {
+            "segmentation": "MPV Keluarga Premium bergaya boxy yang menawarkan ruang kabin serbaguna tingkat tinggi dan kemudahan akses mutakhir.",
+            "performance_specs": "Ditenagai oleh mesin bensin M20A-FKS berkapasitas 1.986 cc (In-line 4 Cylinder, 16 Valve, DOHC). Mesin ini sanggup memproduksi daya maksimum sebesar 170 PS pada putaran 6.600 rpm dan torsi puncak 20,6 kgm pada 4.900 rpm dengan standar sertifikasi emisi Euro 4. Distribusi tenaga ditangani secara mulus oleh transmisi CVT. Kendaraan ini dibangun di atas platform Toyota New Global Architecture (TNGA) untuk menghadirkan traksi yang senyap, efisiensi optimal, dan akselerasi aerodinamis yang responsif.",
+            "fuel_system_capacity_efficiency_estimates": "Mengadopsi sistem injeksi bahan bakar cerdas Electronic Fuel Injection (EFI). Tangki bahan bakar mampu menampung kapasitas hingga 52 liter. Estimasi efisiensi konsumsi bahan bakar mencapai 8 hingga 10 km/L untuk penggunaan dalam kota, serta 11 hingga 15 km/L untuk rute luar kota atau jalan tol.",
+            "dimensions": "Panjang keseluruhan berada di 4.695 mm, lebar 1.730 mm, dan tinggi 1.855 mm. Jarak poros roda (wheelbase) membentang sejauh 2.850 mm dengan jarak terendah ke tanah (ground clearance) 150 mm. Kabin ekstra lapang ini dirancang secara optimal untuk mengakomodasi kapasitas 7 penumpang.",
+            "colour_option": "White Pearl, Glitter Black, Metal Stream.",
+            "chassis_drivetrain": "Menggunakan sistem pendorong roda depan (2WD). Sasis dikawal oleh suspensi depan MacPherson Strut dan suspensi belakang Torsion Beam. Kinerja pengereman mempercayakan cakram berventilasi 16 inci (16\" Ventilated Disc Brake) di bagian roda depan maupun belakang, didukung Electric Parking Brake (EPB). Tersedia teknologi pengereman cerdas Auto Brake Hold (ABH). Kendaraan menapak tangguh dengan velg Alloy 17 inci (205/55 R17) dan dibekali ban serep tipe R-Temporary (T125/70D17).",
+            "exterior": "Tampilan luar dipertegas oleh paras New Resilient Front Bumper yang dipadu gril memikat (Intriguing Grille Design) dan sorotan New Bold Headlamp Design. Akses penumpang belakang sangat praktis dan elegan berkat pintu geser ganda (Dual Sliding Door) yang dilengkapi sensor gestur kaki (New Kick Sensor). Bagasi belakang menggunakan pintu elektrik pintar New Dashing Power Back Door yang dapat dioperasikan secara aman via tombol di sisi samping bodi (Side Button). Turut dilengkapi kaca spion luar dengan fitur pemanas (Heater Function) untuk mencegah embun, velg Stunning 17 inci Disc Wheel, serta lampu belakang New Stylish Rear Combination Lamp yang estetik.",
+            "interior_comfort": "Kabin menyajikan kemewahan paripurna (Extravagant Cabin) dengan pengaturan kursi yang sangat fleksibel. Kursi dibalut material kain (fabric) berkualitas tinggi yang dipadukan dengan aksen kulit kelas satu pada sisi sampingnya. Baris kedua dapat disambungkan dengan baris ketiga, dan sandarannya dapat direbahkan datar (Level Bed) untuk relaksasi tidur nyenyak di perjalanan panjang. Untuk ruang bagasi ekstra besar, bangku baris ketiga dapat dilipat menyamping dengan sangat mudah. Udara kabin juga senantiasa dijaga kesegarannya oleh New Pleasant Air Purifier.",
+            "technology": "Kokpit pengemudi menyajikan panel instrumen New Comprehensive 7 inci TFT LCD MID yang diperkaya pantulan informasi di kaca depan (Head-Up Display). Kendali di lingkar setir dipermudah lewat Seamless Steering Switch yang dilengkapi tombol khusus TSS. Pusat hiburan mengandalkan layar Refined 9 inci Head Unit (mendukung Miracast dan aplikasi mTOYOTA), ditemani monitor hiburan atap besar 11.6 inci (Marvelous Roof Rear Seat Entertainment) berdesain iluminasi dengan remote control. Fasilitas pengisian daya gadget diakomodasi oleh New Advanced Wireless Charger serta 6 buah lubang pengisi daya (6 Practical USB Port).",
+            "safety_specs": "Perlindungan pasif menyeluruh ditangani oleh Complete SRS Airbags (Front D+P, Side Airbags, Curtain Shield Airbags) serta pengait dudukan bayi ISOFIX + Tether. Kinerja keamanan dasar mengandalkan rem Anti-lock Braking System (ABS) + Electronic Brakeforce Distribution (EBD) + Brake Assist (BA), Vehicle Stability Control (VSC), dan penahan tebing Hill Start Assist (HSA). Untuk keamanan saat manuver dan parkir, tersedia fitur Blind Spot Monitor (BSM), kamera 360 derajat (New Convenient Panoramic View Monitor), serta sensor rintangan Clearance Sonar yang mutakhir karena terintegrasi dengan pengereman otomatis Parking Support Brake (Static Object / FR4 RR4). Selain itu, perjalanan dikawal ketat oleh radar kognitif Toyota Safety Sense (TSS) yang membawahi: Pre Collision System (PCS), Lane Tracing Assist (LTA), Dynamic Radar Cruise Control (DRCC), dan Automatic High Beam (AHB). Ketenangan kepemilikan juga dijamin oleh ekosistem layanan digital mTOYOTA (T-Intouch) yang menghadirkan fitur Find My Car, Geofencing, Stolen Vehicle Tracking, Vehicle Info, E-Care (Maintenance), Trip Driving Update, Road Assistance, dan Inquiry & Support Center."
+        }
+    },
+    {
+        "tipe_mobil": "Toyota New Fortuner",
+        "varian": "4x2 2.4 G M/T Diesel",
+        "harga": "594.400.000",
+        "spesifikasi": {
+            "segmentation": "SUV 7 penumpang tangguh bermesin diesel untuk mobilitas fungsional sehari-hari.",
+            "performance_specs": "Ditenagai oleh mesin Diesel 2GD-FTV berkapasitas 2.393 cc (4 Silinder Segaris, 16 Katup, DOHC, VNT Intercooler). Mampu menghasilkan daya maksimum 149,6 PS pada putaran 3.400 rpm dan torsi 400 Nm pada 1.600 - 2.000 rpm. Distribusi tenaga dikelola oleh transmisi manual 6 tingkat kecepatan.",
+            "fuel_system_capacity_efficiency_estimates": "Sistem injeksi bahan bakar Diesel menggunakan Common Rail. Tangki bahan bakar memiliki kapasitas tampung hingga 80 liter. Estimasi konsumsi bahan bakar: Dalam kota 10–12 km/l, dan Luar kota 13–16 km/l.",
+            "dimensions": "Panjang bodi keseluruhan 4.795 mm, lebar 1.855 mm, dan tinggi 1.835 mm. Memiliki jarak sumbu roda (wheelbase) sejauh 2.745 mm. Kabin dirancang untuk kenyamanan 7 penumpang.",
+            "colour_option": "Platinum White Pearl, Super White II, Silver Metallic, Gray Metallic, Attitude Black Mica, Black - Platinum White Pearl.",
+            "chassis_drivetrain": "Sistem penggerak 2 roda (4x2). Kaki-kaki ditopang suspensi depan Double Wishbone dengan Koil Spring & Stabilizer, serta suspensi belakang 4-Link dengan Lateral Rod. Pengereman mengandalkan cakram berventilasi di roda depan dan belakang. Dilengkapi velg 17 inci dengan ban 265/65 R17.",
+            "exterior": "Tampilan eksterior gagah khas SUV bodi bongsor dengan postur tinggi dan gril depan tangguh.",
+            "interior_comfort": "Kabin 7 penumpang lega dengan tata letak dasbor yang ergonomis untuk perjalanan jauh.",
+            "technology": "Dilengkapi dengan sistem layar multimedia interaktif Head Unit.",
+            "safety_specs": "Perlindungan dasar mencakup Vehicle Stability Control (VSC), Hill Start Assist (HSA), Emergency Brake Signal (EBS), Traction Control (TRC), dan Airbags. Terintegrasi dengan layanan telematika T-Intouch yang menghadirkan fitur Find My Car, Guest Driver Alert, Stolen Vehicle Tracking, Time Fencing, Vehicle Info, Emergency Road Assistance, Inquiry & Support Center, Driving Report, Geofencing, serta Speed & Idle Alert."
+        }
+    },
+    {
+        "tipe_mobil": "Toyota New Fortuner",
+        "varian": "4x2 2.4 G A/T Diesel",
+        "harga": "612.100.000",
+        "spesifikasi": {
+            "segmentation": "SUV 7 penumpang tangguh bermesin diesel untuk mobilitas fungsional sehari-hari dengan kemudahan transmisi otomatis.",
+            "performance_specs": "Ditenagai oleh mesin Diesel 2GD-FTV berkapasitas 2.393 cc (4 Silinder Segaris, 16 Katup, DOHC, VNT Intercooler). Mampu menghasilkan daya maksimum 149,6 PS pada 3.400 rpm dan torsi 400 Nm pada 1.600 - 2.000 rpm. Distribusi tenaga dikelola oleh transmisi otomatis 6 tingkat kecepatan dengan Sport Sequential Switchmatic.",
+            "fuel_system_capacity_efficiency_estimates": "Sistem injeksi bahan bakar Diesel menggunakan Common Rail. Tangki bahan bakar memiliki kapasitas tampung hingga 80 liter. Estimasi konsumsi bahan bakar: Dalam kota 10–12 km/l, dan Luar kota 13–16 km/l.",
+            "dimensions": "Panjang bodi keseluruhan 4.795 mm, lebar 1.855 mm, dan tinggi 1.835 mm. Memiliki jarak sumbu roda (wheelbase) sejauh 2.745 mm. Kabin dirancang untuk kenyamanan 7 penumpang.",
+            "colour_option": "Platinum White Pearl, Super White II, Silver Metallic, Gray Metallic, Attitude Black Mica, Black - Platinum White Pearl.",
+            "chassis_drivetrain": "Sistem penggerak 2 roda (4x2). Kaki-kaki ditopang suspensi depan Double Wishbone dengan Koil Spring & Stabilizer, serta suspensi belakang 4-Link dengan Lateral Rod. Pengereman mengandalkan cakram berventilasi di roda depan dan belakang. Dilengkapi velg 17 inci dengan ban 265/65 R17.",
+            "exterior": "Tampilan eksterior gagah khas SUV bodi bongsor dengan postur tinggi dan gril depan tangguh.",
+            "interior_comfort": "Kabin 7 penumpang lega dengan tata letak dasbor yang ergonomis untuk perjalanan jauh.",
+            "technology": "Dilengkapi dengan sistem layar multimedia interaktif Head Unit.",
+            "safety_specs": "Perlindungan dasar mencakup Vehicle Stability Control (VSC), Hill Start Assist (HSA), Emergency Brake Signal (EBS), Traction Control (TRC), dan Airbags. Terintegrasi dengan layanan telematika T-Intouch yang menghadirkan fitur Find My Car, Guest Driver Alert, Stolen Vehicle Tracking, Time Fencing, Vehicle Info, Emergency Road Assistance, Inquiry & Support Center, Driving Report, Geofencing, serta Speed & Idle Alert."
+        }
+    },
+    {
+        "tipe_mobil": "Toyota New Fortuner",
+        "varian": "4x2 2.7 SRZ A/T",
+        "harga": "639.500.000",
+        "spesifikasi": {
+            "segmentation": "Satu-satunya seri SUV 7 penumpang bertenaga bensin dengan sentuhan desain eksterior yang lebih mewah.",
+            "performance_specs": "Ditenagai oleh mesin Bensin 2TR-FE berkapasitas 2.694 cc (4 Silinder Segaris, 16 Katup, DOHC, Dual VVT-i). Memproduksi daya maksimal 163 PS pada 3.400 rpm dan torsi 245 Nm pada rentang 4.000 rpm. Transmisi otomatis 6 tingkat kecepatan dengan Sport Sequential Switchmatic.",
+            "fuel_system_capacity_efficiency_estimates": "Menggunakan sistem injeksi bahan bakar Bensin tanpa timbal (Unleaded Gasoline) dengan kapasitas tangki maksimal hingga 80 liter. Estimasi konsumsi bahan bakar: Dalam kota 6–8 km/l, dan Luar kota 9–11 km/l.",
+            "dimensions": "Panjang 4.795 mm, lebar 1.855 mm, tinggi 1.835 mm, dan jarak poros roda (wheelbase) sejauh 2.745 mm. Kabin optimal untuk mengangkut 7 penumpang.",
+            "colour_option": "Platinum White Pearl, Super White II, Silver Metallic, Gray Metallic, Attitude Black Mica, Black - Platinum White Pearl.",
+            "chassis_drivetrain": "Sistem penggerak 2 roda (4x2). Suspensi depan Double Wishbone dan suspensi belakang 4-Link. Rem cakram berventilasi pada keempat roda. Menggunakan velg 18 inci dengan profil ban 265/60 R18.",
+            "exterior": "Pesona impresif di bagian depan dengan New Impressive Front Grille dan New Front Bumper Spoiler. Tampilan belakang dipertegas oleh New Black Backdoor Garnish dan New Rear Bumper.",
+            "interior_comfort": "Kabin mewah 7 penumpang didukung desain Luxurious Full Dashboard. Mengedepankan sirkulasi ruang yang lebih sehat lewat hadirnya Air Purifier.",
+            "technology": "Dilengkapi layar Head Unit interaktif serta monitor hiburan plafon New 11.6 Inci Rear Seat Entertainment.",
+            "safety_specs": "Perlindungan keselamatan mencakup Vehicle Stability Control (VSC), Hill Start Assist (HSA), Traction Control (TRC), EBS, dan Airbags. Dilengkapi layanan T-Intouch standar yang mencakup Find My Car, Geofencing, Stolen Vehicle Tracking, Vehicle Info, Emergency Road Assistance, dll."
+        }
+    },
+    {
+        "tipe_mobil": "Toyota New Fortuner",
+        "varian": "4x2 2.7 SRZ A/T GR Parts",
+        "harga": "649.000.000",
+        "spesifikasi": {
+            "segmentation": "Satu-satunya seri SUV 7 penumpang bertenaga bensin dengan paket desain aerodinamika eksklusif GR Parts.",
+            "performance_specs": "Ditenagai oleh mesin Bensin 2TR-FE berkapasitas 2.694 cc (4 Silinder Segaris, 16 Katup, DOHC, Dual VVT-i). Memproduksi daya maksimal 163 PS pada 3.400 rpm dan torsi 245 Nm pada rentang 4.000 rpm. Transmisi otomatis 6 tingkat kecepatan dengan Sport Sequential Switchmatic.",
+            "fuel_system_capacity_efficiency_estimates": "Sistem injeksi bahan bakar Bensin tanpa timbal (Unleaded Gasoline) dengan tangki sebesar 80 liter. Estimasi konsumsi bahan bakar: Dalam kota 6–8 km/l, dan Luar kota 9–11 km/l.",
+            "dimensions": "Panjang 4.795 mm, lebar 1.855 mm, tinggi 1.835 mm, dan jarak poros roda (wheelbase) sejauh 2.745 mm. Kabin optimal untuk mengangkut 7 penumpang.",
+            "colour_option": "Platinum White Pearl, Super White II, Silver Metallic, Gray Metallic, Attitude Black Mica, Black - Platinum White Pearl.",
+            "chassis_drivetrain": "Sistem penggerak 2 roda (4x2). Suspensi depan Double Wishbone dan suspensi belakang 4-Link. Rem cakram berventilasi pada keempat roda. Menggunakan velg 18 inci dengan profil ban 265/60 R18.",
+            "exterior": "Menampilkan kosmetik dinamis dari GR Parts Aero Package yang menegaskan nuansa sporty dari segala sisi kendaraan.",
+            "interior_comfort": "Kabin mewah 7 penumpang didukung desain Luxurious Full Dashboard. Mengedepankan sirkulasi ruang yang lebih sehat lewat hadirnya Air Purifier.",
+            "technology": "Dilengkapi layar Head Unit interaktif serta monitor hiburan plafon New 11.6 Inci Rear Seat Entertainment.",
+            "safety_specs": "Perlindungan keselamatan mencakup Vehicle Stability Control (VSC), Hill Start Assist (HSA), Traction Control (TRC), EBS, dan Airbags. Dilengkapi layanan T-Intouch standar yang mencakup Find My Car, Geofencing, Stolen Vehicle Tracking, Vehicle Info, Emergency Road Assistance, dll."
+        }
+    },
+    {
+        "tipe_mobil": "Toyota New Fortuner",
+        "varian": "4x2 2.8 VRZ A/T Diesel",
+        "harga": "661.100.000",
+        "spesifikasi": {
+            "segmentation": "SUV 7 penumpang bermesin diesel kapasitas besar 2.8L yang ekstra bertenaga dengan kelengkapan konektivitas tingkat lanjut.",
+            "performance_specs": "Mengusung mesin Diesel 1GD-FTV berkapasitas 2.755 cc (4 Silinder Segaris, 16 Katup, DOHC, VNT Intercooler). Menyemburkan tenaga besar 203,9 PS pada 3.000 - 4.000 rpm, dan torsi puncak 500 Nm di 1.600 - 2.800 rpm. Disalurkan via transmisi otomatis 6 tingkat kecepatan Sport Sequential Switchmatic.",
+            "fuel_system_capacity_efficiency_estimates": "Sistem injeksi bahan bakar Diesel presisi Common Rail dengan volume tangki mencapai 80 liter. Estimasi konsumsi bahan bakar: Dalam kota 9–11 km/l, dan Luar kota 12–15 km/l.",
+            "dimensions": "Dimensi bodi mencakup panjang 4.795 mm, lebar 1.855 mm, tinggi 1.835 mm, serta wheelbase 2.745 mm. Kabin ekstra lega untuk 7 penumpang.",
+            "colour_option": "Platinum White Pearl, Super White II, Silver Metallic, Gray Metallic, Attitude Black Mica, Black - Platinum White Pearl.",
+            "chassis_drivetrain": "Sistem traksi 2 roda (4x2). Suspensi depan Double Wishbone dan belakang 4-Link. Keempat roda dikawal rem cakram berventilasi. Menggunakan velg elegan New Two-Tone Alloy Wheel Design 18 inci (ban 265/60 R18).",
+            "exterior": "Wajah dominan melalui New Impressive Front Grille dan New Front Bumper Spoiler, panel New Black Backdoor Garnish, dan New Rear Bumper.",
+            "interior_comfort": "Kabin interior premium untuk 7 penumpang, material Luxurious Full Dashboard, dan kesegaran sirkulasi dijaga oleh Air Purifier.",
+            "technology": "Sangat mutakhir berkat ketersediaan layar perekam Digital Video Recorder (DVR), hiburan New 11.6 Inci Rear Seat Entertainment, serta kelengkapan IN-CAR WIFI HOTSPOT yang mana Built-in WiFi agar Anda tetap terhubung dalam setiap perjalanan, yang memberikan Anda kemudahan untuk mengakses konten multimedia di Head Unit dan Unit Hiburan Kursi Belakang.",
+            "safety_specs": "Fasilitas pelindung mekanis meliputi VSC, HSA, EBS, TRC, dan Airbags. Keamanan kepemilikan sangat terjamin lewat integrasi T-Intouch komprehensif yang dibekali Sistem anti-pencurian yang menonaktifkan mesin kendaraan Anda dari jarak jauh untuk mencegah penggunaan tanpa izin (Remote Immobilizer), melengkapi fitur Find My Car, Geofencing, ERA, dll."
+        }
+    },
+    {
+        "tipe_mobil": "Toyota New Fortuner",
+        "varian": "4x2 2.8 VRZ TSS A/T Diesel",
+        "harga": "676.700.000",
+        "spesifikasi": {
+            "segmentation": "SUV 7 penumpang bermesin diesel 2.8L bertenaga tinggi yang telah dilengkapi radar keamanan mutakhir Toyota Safety Sense.",
+            "performance_specs": "Mengusung mesin Diesel 1GD-FTV berkapasitas 2.755 cc (4 Silinder Segaris, 16 Katup, DOHC, VNT Intercooler). Menyemburkan tenaga besar 203,9 PS pada 3.000 - 4.000 rpm, dan torsi puncak 500 Nm di 1.600 - 2.800 rpm. Transmisi otomatis 6 tingkat kecepatan Sport Sequential Switchmatic.",
+            "fuel_system_capacity_efficiency_estimates": "Sistem injeksi bahan bakar Diesel Common Rail dengan volume tangki mencapai 80 liter. Estimasi konsumsi bahan bakar: Dalam kota 9–11 km/l, dan Luar kota 12–15 km/l.",
+            "dimensions": "Panjang 4.795 mm, lebar 1.855 mm, tinggi 1.835 mm, serta wheelbase 2.745 mm. Kabin dirancang untuk kenyamanan maksimal 7 penumpang.",
+            "colour_option": "Platinum White Pearl, Super White II, Silver Metallic, Gray Metallic, Attitude Black Mica, Black - Platinum White Pearl.",
+            "chassis_drivetrain": "Sistem traksi 2 roda (4x2). Suspensi depan Double Wishbone dan belakang 4-Link. Keempat roda dikawal rem cakram berventilasi. Velg tangguh Black Alloy Wheel 18 inci (ban 265/60 R18).",
+            "exterior": "Visual tegas dan premium lewat New Impressive Front Grille, New Front Bumper Spoiler, dan aksen New Black Backdoor Garnish.",
+            "interior_comfort": "Kabin interior mewah untuk 7 penumpang, dipadukan material Luxurious Full Dashboard dan pembersih sirkulasi udara Air Purifier.",
+            "technology": "Terdapat Digital Video Recorder (DVR), monitor plafon New 11.6 Inci Rear Seat Entertainment, serta fasilitas IN-CAR WIFI HOTSPOT yang mana Built-in WiFi agar Anda tetap terhubung dalam setiap perjalanan, yang memberikan Anda kemudahan untuk mengakses konten multimedia di Head Unit dan Unit Hiburan Kursi Belakang.",
+            "safety_specs": "Telah dibekali asisten perlindungan radar canggih Toyota Safety Sense (TSS) yang mencakup Pre-Collision System, Lane Departure Alert (LDA), dan Dynamic Radar Cruise Control. Fitur keamanan manuver diperkuat oleh Blind Spot Monitor (BSM) dan Rear Cross Traffic Alert (RCTA). Terangkum dengan VSC, HSA, EBS, TRC, Airbags, serta ekosistem mToyota T-Intouch yang memiliki Sistem anti-pencurian yang menonaktifkan mesin kendaraan Anda dari jarak jauh untuk mencegah penggunaan tanpa izin."
+        }
+    },
+    {
+        "tipe_mobil": "Toyota New Fortuner",
+        "varian": "4x2 2.8 VRZ GR Sport TSS Diesel",
+        "harga": "687.500.000",
+        "spesifikasi": {
+            "segmentation": "SUV 7 penumpang 4x2 bermesin diesel 2.8L yang mempertemukan desain balap Gazoo Racing dan keamanan tertinggi TSS.",
+            "performance_specs": "Memakai mesin Diesel 1GD-FTV berkapasitas 2.755 cc (4 Silinder Segaris, 16 Katup, DOHC, VNT Intercooler). Memiliki tenaga luar biasa 203,9 PS di rentang 3.000 - 4.000 rpm dan hentakan torsi 500 Nm di 1.600 - 2.800 rpm. Transmisi otomatis 6 tingkat kecepatan Sport Sequential Switchmatic.",
+            "fuel_system_capacity_efficiency_estimates": "Sistem injeksi bahan bakar Diesel Common Rail mutakhir dengan kapasitas tangki 80 liter. Estimasi konsumsi bahan bakar: Dalam kota 9–11 km/l, dan Luar kota 12–15 km/l.",
+            "dimensions": "Panjang 4.795 mm, lebar 1.855 mm, tinggi 1.835 mm, serta wheelbase 2.745 mm. Kabin ekstra lega untuk mengangkut 7 penumpang.",
+            "colour_option": "Platinum White Pearl, Super White II, Silver Metallic, Gray Metallic, Attitude Black Mica, Black - Platinum White Pearl. Tersedia juga opsi atap hitam (Black Roof) pada profil desain aerodinamikanya.",
+            "chassis_drivetrain": "Sistem traksi 2 roda (4x2). Suspensi depan Double Wishbone dan belakang 4-Link. Keempat roda dikawal rem cakram berventilasi. Velg menggunakan desain Black Alloy Wheel 18 inci (ban 265/60 R18).",
+            "exterior": "Membawa paket estetika dan aerodinamika GR Parts Aero Package secara penuh yang meliputi New Impressive Front Grille, GR Front Bumper Spoiler, New Foglamp Garnish, GR Body Stripe, hingga sayap belakang GR Rear Bumper Spoiler.",
+            "interior_comfort": "Interior nyaman 7 penumpang yang menghadirkan desain Luxurious Full Dashboard serta kemampuan penyaring udara Air Purifier.",
+            "technology": "Diperkuat kamera pengawas Digital Video Recorder (DVR), layar gantung New 11.6 Inci Rear Seat Entertainment, serta IN-CAR WIFI HOTSPOT yang mana Built-in WiFi agar Anda tetap terhubung dalam setiap perjalanan, yang memberikan Anda kemudahan untuk mengakses konten multimedia di Head Unit dan Unit Hiburan Kursi Belakang.",
+            "safety_specs": "Dilengkapi perlindungan kognitif canggih Toyota Safety Sense (TSS) yang meliputi Pre-Collision System, Lane Departure Alert (LDA), dan Dynamic Radar Cruise Control. Ditambah dengan sensor titik buta Blind Spot Monitor (BSM) dan Rear Cross Traffic Alert (RCTA). Terangkum bersama VSC, HSA, EBS, TRC, Airbags, serta ekosistem mToyota T-Intouch yang menyertakan Sistem anti-pencurian yang menonaktifkan mesin kendaraan Anda dari jarak jauh untuk mencegah penggunaan tanpa izin."
+        }
+    },
+    {
+        "tipe_mobil": "Toyota New Fortuner",
+        "varian": "4x4 2.8 VRZ A/T Diesel",
+        "harga": "804.800.000",
+        "spesifikasi": {
+            "segmentation": "SUV 7 penumpang premium bermesin diesel berkemampuan lintasan Off-Road sejati melalui kontrol pengerak empat roda (4x4).",
+            "performance_specs": "Mesin bertenaga ekstra Diesel 1GD-FTV 2.755 cc (4 Silinder Segaris, 16 Katup, DOHC, VNT Intercooler). Sanggup melontarkan letusan daya 203,9 PS pada 3.000 - 4.000 rpm serta kekuatan torsi raksasa 500 Nm pada 1.600 - 2.800 rpm. Transmisi otomatis 6 tingkat kecepatan dihubungkan dengan kemampuan pengerak seluruh roda (4x4).",
+            "fuel_system_capacity_efficiency_estimates": "Injeksi bahan bakar bersistem Diesel Common Rail efisien yang mengambil dari tangki bervolume sebesar 80 liter. Estimasi konsumsi bahan bakar: Dalam kota 9–11 km/l, dan Luar kota 12–15 km/l.",
+            "dimensions": "Panjang bodi 4.795 mm, lebar 1.855 mm, tinggi 1.835 mm, serta bentangan poros roda (wheelbase) di 2.745 mm. Konfigurasi kabin mengakomodasi 7 orang penumpang.",
+            "colour_option": "Platinum White Pearl, Super White II, Silver Metallic, Gray Metallic, Attitude Black Mica, Black - Platinum White Pearl.",
+            "chassis_drivetrain": "Daya traksi dikirim melalui sistem roda 4x4 (Four-Wheel Drive). Sasis mengadopsi suspensi tangguh Double Wishbone di depan serta ayunan 4-Link di belakang. Piringan rem empat sisi jenis cakram berventilasi. Menapak menggunakan velg 18 inci dengan ukuran ban 265/60 R18.",
+            "exterior": "Tampilan mendominasi khas SUV andalan dengan sorotan lampu premium dan desain bumper yang disesuaikan untuk pendekatan lintasan curam.",
+            "interior_comfort": "Kokpit lapang untuk 7 penumpang disajikan dalam balutan material mewah. Dibantu oleh penyejuk kabin yang sehat melalui Air Purifier.",
+            "technology": "Memiliki sistem hiburan dan konektivitas kelas atas. Termasuk kehadiran IN-CAR WIFI HOTSPOT yang mana Built-in WiFi agar Anda tetap terhubung dalam setiap perjalanan, yang memberikan Anda kemudahan untuk mengakses konten multimedia di Head Unit dan Unit Hiburan Kursi Belakang.",
+            "safety_specs": "Fitur keselamatan dasar mencakup Vehicle Stability Control (VSC), Hill Start Assist (HSA), Traction Control (TRC), Emergency Brake Signal (EBS), dan sistem Airbags perlindungan tabrakan. Sangat aman berkat ekosistem pintar T-Intouch yang memiliki perlindungan tertinggi yakni Sistem anti-pencurian yang menonaktifkan mesin kendaraan Anda dari jarak jauh untuk mencegah penggunaan tanpa izin."
+        }
+    },
+    {
+        "tipe_mobil": "Toyota New Fortuner",
+        "varian": "4x4 2.8 VRZ A/T GR Sport TSS Diesel",
+        "harga": "834.000.000",
+        "spesifikasi": {
+            "segmentation": "Varian Flagship (Kasta Tertinggi) SUV 4x4 7 penumpang bermesin diesel tanpa kompromi yang ditakdirkan menaklukkan medan off-road ekstrem sekaligus memancarkan perlindungan dan utilitas canggih Gazoo Racing.",
+            "performance_specs": "Disuplai mesin superior Diesel 1GD-FTV 2.755 cc (4 Silinder Segaris, 16 Katup, DOHC, VNT Intercooler). Sanggup melontarkan letusan daya ekstrem 203,9 PS pada 3.000 - 4.000 rpm serta kekuatan torsi raksasa 500 Nm pada 1.600 - 2.800 rpm. Transmisi otomatis 6 tingkat kecepatan dihubungkan dengan kemampuan pengerak seluruh roda bersistem 4x4 Off-Road Mode.",
+            "fuel_system_capacity_efficiency_estimates": "Sistem injeksi bahan bakar Diesel Common Rail super efisien dan tangguh dengan tangki bervolume ekstrem sebesar 80 liter. Estimasi konsumsi bahan bakar: Dalam kota 9–11 km/l, dan Luar kota 12–15 km/l.",
+            "dimensions": "Panjang bodi 4.795 mm, lebar pundak 1.855 mm, tinggi atap 1.835 mm, serta bentangan poros roda di 2.745 mm. Skema kabin diarsiteki dengan tata ruang lega untuk 7 orang penumpang.",
+            "colour_option": "Platinum White Pearl, Super White II, Silver Metallic, Gray Metallic, Attitude Black Mica, Black - Platinum White Pearl. Tersedia karakter atap dua-nada eksklusif (New Black Roof).",
+            "chassis_drivetrain": "Daya traksi dikirim melalui sistem roda mekanis 4x4 (Four-Wheel Drive). Sasis sanggup membanting kejutan ekstrem off-road lewat New GR Tuned Suspension yang mengadopsi pipa tunggal silinder Monotube canggih pada sumbu ganda Double Wishbone dan ayunan 4-Link. Cakram berventilasi ditahan agresif oleh kaliper merah cerah (New Red Brake Caliper). Kendaraan melindas permukaan lewat velg New Black Alloy Wheel 18 inci dengan ban 265/60 R18.",
+            "exterior": "Visual agresif paripurna melalui headlamp New Radiant Headlamp with Sequential Turn Lamp, New Front Grille & New Front Bumper Spoiler beremblem kebesaran GR, serta diakhiri sayap bodi New Striking Spoiler.",
+            "interior_comfort": "Kokpit dan seluruh baris bangku bagi 7 penumpang dibalut material ultra-premium perpaduan suede dan kulit eksklusif dengan aksen jahitan merah (red stitching). Tidak lupa ditambahkan piranti filtrasi partikel cuaca Air Purifier.",
+            "technology": "Diberkahi cermin anti-distorsi cerdas New Digital Rear View Monitor dengan perekam (DVR), serta panel gantung New 11.6 Inci Rear Seat Entertainment. Menjadi yang paling terdepan secara digital berkat terpasangnya IN-CAR WIFI HOTSPOT yang mana Built-in WiFi agar Anda tetap terhubung dalam setiap perjalanan, yang memberikan Anda kemudahan untuk mengakses konten multimedia di Head Unit dan Unit Hiburan Kursi Belakang.",
+            "safety_specs": "Perlindungan maksimal berkat asisten pintar penuh dari Toyota Safety Sense (TSS) yang meliputi fungsi Pre-Collision System, Lane Departure Alert (LDA), dan Dynamic Radar Cruise Control. Memiliki fitur kontrol darurat lintasan curam Downhill Assist Control (DAC). Didukung penuh oleh pemonitor titik buta Blind Spot Monitor (BSM) dan anti tabrak mundur parkir Rear Cross Traffic Alert (RCTA). Sistem keselamatan utamanya menyatukan VSC, HSA, EBS, TRC, dan pelindung total 7 SRS Airbags. Sistem telematikanya dibentengi layanan T-Intouch tercanggih yang dilengkapi Sistem anti-pencurian yang menonaktifkan mesin kendaraan Anda dari jarak jauh untuk mencegah penggunaan tanpa izin, dan dipadukan fungsi lengkap Find My Car, Geofencing, ERA, Stolen Vehicle Tracking, dll."
+        }
+    },
+    {
+        "tipe_mobil": "Toyota New Rush",
+        "varian": "1.5 G M/T",
+        "harga": "317.800.000",
+        "spesifikasi": {
+            "segmentation": "SUV 7 penumpang yang tangguh, fungsional, dan memiliki ruang kabin luas untuk mobilitas keluarga di berbagai medan.",
+            "performance_specs": "Ditenagai oleh mesin 2NR-VE berkapasitas 1.496 cc (4 Cylinder In Line, 16 Valves, DOHC, Dual VVT-i). Mampu menghasilkan daya maksimum sebesar 104 PS pada putaran 6.000 rpm dan torsi puncak 13,9 kgm pada 4.200 rpm. Distribusi tenaga dioperasikan melalui transmisi manual 5 tingkat kecepatan (5 Speed Manual). Dinyalakan secara praktis menggunakan Smart Start/Stop Engine Button.",
+            "fuel_system_capacity_efficiency_estimates": "Sistem suplai bahan bakar menggunakan teknologi Sistem Injeksi Bahan Bakar Elektronik (Electronic Fuel Injection).",
+            "dimensions": "Memiliki dimensi panjang keseluruhan 4.435 mm, lebar 1.695 mm, dan tinggi 1.705 mm. Jarak sumbu roda (wheelbase) membentang 2.685 mm. Kabin dirancang sangat lega untuk mengakomodasi kapasitas 7 penumpang (7 Seaters Spacy Cabin).",
+            "colour_option": "White, Silver Mica Metallic, Black Metallic, Bronze Mica Metallic, Dark Red Mica Metallic.",
+            "chassis_drivetrain": "Kendali presisi ditunjang oleh Electric Power Steering. Suspensi depan menggunakan MacPherson Struts dengan Pegas Koil dan Stabilizer, sedangkan suspensi belakang mengadopsi 5 Link dengan Pegas Koil, Lateral Rod, dan Stabilizer. Pengereman mengandalkan piringan cakram 16 inci (16\" Disc) di depan dan Tromol (Drum) di belakang. Kendaraan menapak dengan velg Alloy with Machining berbalut ban 215/65 R16.",
+            "exterior": "Tampilan luar bergaya SUV kokoh yang telah dilengkapi dengan Side Visor untuk kenyamanan berkendara dari sinar matahari.",
+            "interior_comfort": "Ruang kabin 7 penumpang dirancang untuk kenyamanan ekstra. Pengemudi mendapatkan kemudahan pengaturan posisi kemudi melalui fitur Comfortable Tilt Steering.",
+            "technology": "Pusat hiburan mengandalkan layar audio yang mumpuni. Sangat fungsional berkat adanya Rear Parking Camera untuk kemudahan parkir, serta tersedianya Emergency Portable Tire Inflator 12V berdesain ringkas untuk keadaan darurat di perjalanan.",
+            "safety_specs": "Sistem keselamatan dasar yang sangat komprehensif untuk semua penumpang, meliputi: Protective 6 SRS Airbags, Vehicle Stability Control (VSC), Anti-Lock Braking System (ABS), Hill-Start Assist (HSA), dan peringatan rem mendadak Emergency Brake Signal (EBS)."
+        }
+    },
+    {
+        "tipe_mobil": "Toyota New Rush",
+        "varian": "1.5 G A/T",
+        "harga": "328.600.000",
+        "spesifikasi": {
+            "segmentation": "SUV 7 penumpang yang tangguh, fungsional, dan memiliki ruang kabin luas dengan kemudahan operasional transmisi otomatis.",
+            "performance_specs": "Ditenagai oleh mesin 2NR-VE berkapasitas 1.496 cc (4 Cylinder In Line, 16 Valves, DOHC, Dual VVT-i). Mampu menghasilkan daya maksimum sebesar 104 PS pada putaran 6.000 rpm dan torsi puncak 13,9 kgm pada 4.200 rpm. Distribusi tenaga dikelola secara mulus oleh transmisi otomatis 4 tingkat kecepatan (4 Speed Automatic). Dinyalakan secara praktis menggunakan Smart Start/Stop Engine Button.",
+            "fuel_system_capacity_efficiency_estimates": "Sistem suplai bahan bakar menggunakan teknologi Sistem Injeksi Bahan Bakar Elektronik (Electronic Fuel Injection).",
+            "dimensions": "Memiliki dimensi panjang keseluruhan 4.435 mm, lebar 1.695 mm, dan tinggi 1.705 mm. Jarak sumbu roda (wheelbase) membentang 2.685 mm. Kabin dirancang sangat lega untuk mengakomodasi kapasitas 7 penumpang (7 Seaters Spacy Cabin).",
+            "colour_option": "White, Silver Mica Metallic, Black Metallic, Bronze Mica Metallic, Dark Red Mica Metallic.",
+            "chassis_drivetrain": "Kendali presisi ditunjang oleh Electric Power Steering. Suspensi depan menggunakan MacPherson Struts dengan Pegas Koil dan Stabilizer, sedangkan suspensi belakang mengadopsi 5 Link dengan Pegas Koil, Lateral Rod, dan Stabilizer. Pengereman mengandalkan piringan cakram 16 inci (16\" Disc) di depan dan Tromol (Drum) di belakang. Kendaraan menapak dengan velg Alloy with Machining berbalut ban 215/65 R16.",
+            "exterior": "Tampilan luar bergaya SUV kokoh yang telah dilengkapi dengan Side Visor untuk kenyamanan berkendara dari pantulan sinar matahari.",
+            "interior_comfort": "Ruang kabin 7 penumpang dirancang untuk kenyamanan dan kelegaan ekstra. Pengemudi mendapatkan kemudahan pengaturan posisi setir melalui fitur Comfortable Tilt Steering.",
+            "technology": "Pusat hiburan mengandalkan layar audio mumpuni. Sangat fungsional berkat adanya Rear Parking Camera untuk memandu parkir mundur, serta ketersediaan Emergency Portable Tire Inflator 12V berdesain ringkas dan ringan untuk keadaan darurat.",
+            "safety_specs": "Sistem keselamatan dasar yang sangat komprehensif untuk semua penumpang, meliputi: Protective 6 SRS Airbags, Vehicle Stability Control (VSC), Anti-Lock Braking System (ABS), Hill-Start Assist (HSA), dan peringatan rem mendadak Emergency Brake Signal (EBS)."
+        }
+    },
+    {
+        "tipe_mobil": "Toyota New Rush",
+        "varian": "1.5 GR Sport M/T",
+        "harga": "333.000.000",
+        "spesifikasi": {
+            "segmentation": "SUV 7 penumpang bergaya agresif dan sporty yang didukung oleh paket desain eksklusif Gazoo Racing (GR) untuk jiwa petualang.",
+            "performance_specs": "Dipacu mesin 2NR-VE berkapasitas 1.496 cc (4 Cylinder In Line, 16 Valves, DOHC, Dual VVT-i). Memproduksi daya maksimal sebesar 104 PS pada 6.000 rpm dan torsi puncak 13,9 kgm pada 4.200 rpm. Penyaluran tenaga mekanis dilakukan melalui transmisi manual 5 tingkat kecepatan (5 Speed Manual). Pengoperasian mesin dipermudah oleh Smart Start/Stop Engine Button.",
+            "fuel_system_capacity_efficiency_estimates": "Sistem suplai bahan bakar efisien menggunakan teknologi Sistem Injeksi Bahan Bakar Elektronik (Electronic Fuel Injection).",
+            "dimensions": "Dimensi proporsional dengan panjang keseluruhan 4.435 mm, lebar 1.695 mm, dan tinggi 1.705 mm. Sumbu roda (wheelbase) berada di 2.685 mm. Tata ruang kabin disesuaikan dengan kapasitas ideal untuk 7 penumpang (7 Seaters Spacy Cabin).",
+            "colour_option": "White, Silver Mica Metallic, Black Metallic, Bronze Mica Metallic, Dark Red Mica Metallic.",
+            "chassis_drivetrain": "Didukung Electronic Power Steering dengan radius putar dinamis. Suspensi depan MacPherson Struts dengan Pegas Koil & Stabilizer, suspensi belakang 5 Link dengan Pegas Koil, Lateral Rod & Stabilizer. Pengereman dikawal 16 inci Disc (depan) dan Tromol (belakang). Menggunakan velg eksklusif ukuran 17 inci desain New Two-Tone Alloy Wheel (ban 215/60 R17 Alloy with Machining).",
+            "exterior": "Membawa elemen aerodinamika tangguh lewat New GR Aeropackage yang mencakup: New Black Glossy Front Grille Ornament, New Black Glossy Design Front Bumper Spoiler, New Black Glossy Outer Mirror Cover, New Black Glossy Over Fender, New Black Glossy Side Body Moulding, New Outside Door Handle, New Black Glossy Upper Back Door Garnish, dan New Dauntless Rear Bumper Spoiler. Turut ditandai dengan Exclusive GR Emblem di buritan serta Side Visor.",
+            "interior_comfort": "Kabin premium berkonsep Black Interior Ornament Design. Keistimewaan GR terasa pada New Bold Sporty Dashboard dua-nada, New Black Interior Panel & Door Armrest Softpad, Headrest dengan sulaman tulisan GR Logo, karpet bawah eksklusif GR Floor Mat, serta kendali setir Comfortable Tilt Steering.",
+            "technology": "Multimedianya ditingkatkan menggunakan layar sentuh lebar New 9-Inch AVX Entertainment Unit with Smart Phone Connectivity. Kepraktisan turut disumbang oleh Rear Parking Camera serta aksesori pengisi angin ringkas Emergency Portable Tire Inflator 12V.",
+            "safety_specs": "Sistem keselamatan tingkat tinggi dirancang lewat pelindung 6 titik tabrakan Protective 6 SRS Airbags, stabilisator manuver Vehicle Stability Control (VSC), pengereman Anti-Lock Braking System (ABS), penahan tanjakan Hill-Start Assist (HSA), dan pemberi sinyal lampu darurat Emergency Brake Signal (EBS)."
+        }
+    },
+    {
+        "tipe_mobil": "Toyota New Rush",
+        "varian": "1.5 GR Sport A/T",
+        "harga": "343.400.000",
+        "spesifikasi": {
+            "segmentation": "Varian tertinggi SUV 7 penumpang berdesain sporty (Gazoo Racing) dengan kenyamanan kendali laju melalui transmisi otomatis.",
+            "performance_specs": "Dipacu mesin 2NR-VE berkapasitas 1.496 cc (4 Cylinder In Line, 16 Valves, DOHC, Dual VVT-i). Memproduksi daya maksimal sebesar 104 PS pada 6.000 rpm dan torsi puncak 13,9 kgm pada 4.200 rpm. Penyaluran tenaga sangat mulus berkat transmisi otomatis 4 tingkat kecepatan (4 Speed Automatic). Pengoperasian mesin dipermudah oleh Smart Start/Stop Engine Button.",
+            "fuel_system_capacity_efficiency_estimates": "Sistem suplai bahan bakar terdistribusi cerdas melalui teknologi Sistem Injeksi Bahan Bakar Elektronik (Electronic Fuel Injection).",
+            "dimensions": "Dimensi proporsional dengan panjang keseluruhan 4.435 mm, lebar 1.695 mm, dan tinggi 1.705 mm. Sumbu roda (wheelbase) berada di 2.685 mm. Tata ruang kabin disesuaikan untuk kenyamanan maksimal 7 penumpang (7 Seaters Spacy Cabin).",
+            "colour_option": "White, Silver Mica Metallic, Black Metallic, Bronze Mica Metallic, Dark Red Mica Metallic.",
+            "chassis_drivetrain": "Didukung Electronic Power Steering dengan kemudi responsif. Suspensi depan MacPherson Struts dengan Pegas Koil & Stabilizer, suspensi belakang 5 Link dengan Pegas Koil, Lateral Rod & Stabilizer. Pengereman dikawal 16 inci Disc (depan) dan Tromol (belakang). Tampil sangat gagah di jalanan menggunakan velg ukuran 17 inci desain New Two-Tone Alloy Wheel (ban 215/60 R17 Alloy with Machining).",
+            "exterior": "Membawa set lengkap aerodinamika tangguh dari New GR Aeropackage yang mencakup: New Black Glossy Front Grille Ornament, New Black Glossy Design Front Bumper Spoiler, New Black Glossy Outer Mirror Cover, New Black Glossy Over Fender, New Black Glossy Side Body Moulding, New Outside Door Handle, New Black Glossy Upper Back Door Garnish, dan New Dauntless Rear Bumper Spoiler. Kesan eksklusif semakin menonjol berkat Exclusive GR Emblem dan pelindung jendela Side Visor.",
+            "interior_comfort": "Kabin premium mengusung tema Black Interior Ornament Design. Keistimewaan GR Type ditonjolkan melalui dasbor dua-warna New Bold Sporty Dashboard, kenyamanan sentuhan New Black Interior Panel & Door Armrest Softpad, dudukan kepala Headrest berlambang GR Logo, pijakan kaki GR Floor Mat, dan kemudi ergonomis Comfortable Tilt Steering.",
+            "technology": "Sistem interaksi multimedia layar sentuh kelas atas New 9-Inch AVX Entertainment Unit with Smart Phone Connectivity. Menjamin kepraktisan dan keamanan harian berkat hadirnya Rear Parking Camera beserta pompa portabel ringan Emergency Portable Tire Inflator 12V.",
+            "safety_specs": "Sistem keselamatan menyeluruh menjamin ketenangan penumpang, meliputi: perlindungan kabin penuh Protective 6 SRS Airbags, stabilisator bodi Vehicle Stability Control (VSC), pengereman Anti-Lock Braking System (ABS), pengaman tanjakan Hill-Start Assist (HSA), dan peringatan lampu rem mendadak Emergency Brake Signal (EBS)."
+        }
+    }
 ]

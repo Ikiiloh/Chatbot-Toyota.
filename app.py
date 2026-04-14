@@ -88,14 +88,33 @@ def tanya_gemini(pertanyaan, konteks_db, max_retry=2):
             else:
                 raise
 
-# --- 4. TAMPILAN WEB STREAMLIT ---
+# --- 4. UI STREAMLIT ---
 st.set_page_config(page_title="Asisten Toyota Auto2000", page_icon="🚗")
 st.title("🚗 Asisten Pintar Auto2000")
 st.caption("Prototipe RAG Hybrid (SQL + JSON + Vector) - TiDB & Gemini")
 
+# Bagian yang diubah:
 if "messages" not in st.session_state:
-    st.session_state.messages = [{"role": "assistant", "content": "Halo! Saya asisten virtual Toyota Auto2000. Ada yang bisa saya bantu?"}]
+    st.session_state.messages = [
+        {
+            "role": "assistant", 
+            "content": """
+            Selamat datang di **Layanan Konsultasi Digital Auto2000 Rantauprapat**! 🚗✨
 
+            Saya adalah asisten virtual yang siap membantu Bapak/Ibu menemukan unit Toyota terbaik dengan harga **OTR Labuhanbatu**. 
+            
+            Jika Bapak/Ibu bingung ingin bertanya apa, berikut adalah beberapa hal yang bisa saya informasikan:
+            
+            * **Cek Harga & Budget:** *"Tampilkan mobil keluarga dengan budget di bawah 500 juta."*
+            * **Detail Spesifikasi:** *"Apa saja fitur keamanan yang ada di Innova Zenix tipe Q?"*
+            * **Perbandingan Varian:** *"Apa perbedaan antara Alphard tipe bensin dengan tipe Hybrid?"*
+            * **Rekomendasi Kebutuhan:** *"Saya mencari mobil yang sangat irit untuk operasional harian."*
+            * **Kapasitas:** *"Mobil apa yang muat untuk 7 orang penumpang dengan kenyamanan VIP?"*
+
+            Ada yang bisa saya bantu jelaskan lebih lanjut mengenai unit Toyota hari ini?
+            """
+        }
+    ]
 for msg in st.session_state.messages:
     with st.chat_message(msg["role"]):
         st.markdown(msg["content"])
@@ -105,6 +124,16 @@ if user_input := st.chat_input("Tanya spesifikasi atau harga di sini..."):
     with st.chat_message("user"):
         st.markdown(user_input)
     
+    with st.sidebar:
+        st.header("💡 Panduan Bertanya")
+        st.write("""
+        Gunakan kriteria berikut agar saya bisa memberikan jawaban terbaik:
+        1. **Sebutkan Budget:** Misal 'di bawah 300 juta'.
+        2. **Sebutkan Fitur:** Misal 'yang punya TSS' atau 'Hybrid'.
+        3. **Sebutkan Tipe:** Misal 'Avanza' atau 'Innova'.
+    """)
+    st.info("Semua harga adalah estimasi OTR Labuhanbatu.")
+
     with st.chat_message("assistant"):
         with st.spinner("Mencari di Database TiDB..."):
             try:
