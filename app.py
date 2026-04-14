@@ -70,6 +70,7 @@ def tanya_gemini(pertanyaan, konteks_db, max_retry=2):
     3. LOGIKA REKOMENDASI (CROSS-SELLING): Jika kustomer mencari mobil tertentu yang TIDAK ADA di database, jangan langsung menolak. Lihat kriteria mereka (misal: mencari mobil keluarga, atau mobil irit). Cari mobil lain di <data_database> yang memiliki kemiripan kriteria, lalu berikan rekomendasi dengan kalimat: "Mohon maaf, unit [Mobil A] belum tersedia di data kami, namun berdasarkan keinginan Bapak/Ibu yang mencari mobil [Kriteria], saya sangat merekomendasikan [Mobil B] karena..."
     4. HARGA: Selalu informasikan bahwa harga tersebut adalah harga OTR Labuhanbatu untuk membantu kustomer menghitung budget mereka.
     5. STRUKTUR: Gunakan bullet points atau penomoran agar penjelasan fitur mudah dipahami.
+    6. PERINGATAN HARGA: Jika kustomer mencari harga yang JAUH di bawah unit termurah yang tersedia (misal cari 100jt tapi unit termurah 170jt), sampaikan dengan jujur bahwa unit di range 100jt pas belum tersedia, namun tawarkan unit terdekat (seperti Calya) sambil menyebutkan selisih harganya agar kustomer tidak kaget.
     """
     
     # Retry otomatis jika timeout (DeadlineExceeded)
