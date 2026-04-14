@@ -149,7 +149,9 @@ if user_input := st.chat_input("Tanya spesifikasi atau harga di sini..."):
                 jawaban = "⏳ Mohon maaf, server AI sedang sibuk dan membutuhkan waktu lebih lama. Silakan coba kirim pertanyaan Anda sekali lagi."
                 st.warning(jawaban)
             except Exception as e:
-                jawaban = f"⚠️ Terjadi kesalahan: silakan coba lagi dalam beberapa saat."
+                jawaban = "⚠️ Terjadi kesalahan pada sistem saat melakukan pencarian data."
                 st.error(jawaban)
+                with st.expander("🛠️ Detail Error Sistem (Untuk Debugging)"):
+                    st.error(f"Pesan Kesalahan:\n{str(e)}")
             
     st.session_state.messages.append({"role": "assistant", "content": jawaban})
