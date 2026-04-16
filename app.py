@@ -6,6 +6,7 @@ import certifi
 from dotenv import load_dotenv
 import google.generativeai as genai
 from google.api_core import exceptions as google_exceptions
+import re
 
 # --- 1. SETUP KREDENSIAL ---
 load_dotenv()
@@ -18,27 +19,71 @@ def get_db_connection():
         ssl_verify_cert=True, ssl_verify_identity=True, ssl_ca=certifi.where()
     )
 
+def ekstrak_budget(teks):
+    # Mencari pola angka seperti "300 juta", "300jt", atau "300.000.000"
+    teks = teks.lower()
+    pola = re.findall(r'(\d+)\s*(juta|jt|jt-an|jutaan)', teks)
+    
+    if pola:
+        # Ambil angka pertama yang ditemukan dan kali 1.000.000
+        return int(pola[0][0]) * 1000000
+    
+    # Jika kustomer mengetik angka penuh (misal: 300000000)
+    pola_angka = re.findall(r'(\d{7,10})', teks)
+    if pola_angka:
+        return int(pola_angka[0])
+        
+    return None
+
 # --- 2. FUNGSI PENCARIAN RAG (VECTOR SEARCH) ---
 def cari_konteks_hybrid(pertanyaan_user):
-    # Ubah pertanyaan jadi vektor
+    # 1. Deteksi apakah ada budget di pertanyaan user
+    budget_user = ekstrak_budget(pertanyaan_user)
+    
+    # 2. Generate Vector
     response_embed = genai.embed_content(model="models/gemini-embedding-001", content=pertanyaan_user)
     vektor_user = str(response_embed['embedding'])
 
-    # Cari 3 mobil paling relevan di database
     koneksi = get_db_connection()
     konteks_terkumpul = ""
+    
     try:
         with koneksi.cursor(pymysql.cursors.DictCursor) as cursor:
-            sql = """
-            SELECT tipe_mobil, varian, harga, spesifikasi_detail,
-                   vec_cosine_distance(embedding, %s) AS jarak
-            FROM data_mobil_hybrid
-            ORDER BY jarak ASC
-            LIMIT 3
-            """
-            cursor.execute(sql, (vektor_user,))
+            # JIKA USER MENYEBUTKAN BUDGET
+            if budget_user:
+                # SQL Filter: Ambil mobil yang harganya <= budget user + toleransi 10%
+                # Ini akan membuang Fortuner & Zenix secara otomatis dari hasil pencarian
+                sql = """
+                SELECT tipe_mobil, varian, harga, spesifikasi_detail,
+                       vec_cosine_distance(embedding, %s) AS jarak
+                FROM data_mobil_hybrid
+                WHERE harga <= %s * 1.1 
+                ORDER BY jarak ASC
+                LIMIT 5
+                """
+                cursor.execute(sql, (vektor_user, budget_user))
+            else:
+                # Jika tidak ada budget, gunakan pencarian vektor murni seperti biasa
+                sql = """
+                SELECT tipe_mobil, varian, harga, spesifikasi_detail,
+                       vec_cosine_distance(embedding, %s) AS jarak
+                FROM data_mobil_hybrid
+                ORDER BY jarak ASC
+                LIMIT 5
+                """
+                cursor.execute(sql, (vektor_user,))
+                
             hasil = cursor.fetchall()
             
+            # Jika budget terlalu rendah sehingga hasil kosong, cari yang paling mendekati harganya
+            if not hasil and budget_user:
+                cursor.execute("""
+                    SELECT tipe_mobil, varian, harga, spesifikasi_detail, 0 as jarak 
+                    FROM data_mobil_hybrid 
+                    ORDER BY ABS(harga - %s) ASC LIMIT 5
+                """, (budget_user,))
+                hasil = cursor.fetchall()
+
             for row in hasil:
                 konteks_terkumpul += f"Tipe: {row['tipe_mobil']} {row['varian']}\n"
                 konteks_terkumpul += f"Harga: Rp {row['harga']:,.0f}\n"
@@ -48,7 +93,7 @@ def cari_konteks_hybrid(pertanyaan_user):
     return konteks_terkumpul
 
 # --- 3. GENERATE JAWABAN GEMINI ---
-def tanya_gemini(pertanyaan, konteks_db, max_retry=2):
+def tanya_gemini(pertanyaan, konteks_db, max_retry=5):
     model = genai.GenerativeModel('gemini-2.5-flash')
     
     system_prompt = f"""
@@ -73,18 +118,28 @@ def tanya_gemini(pertanyaan, konteks_db, max_retry=2):
     6. PERINGATAN HARGA: Jika kustomer mencari harga yang JAUH di bawah unit termurah yang tersedia (misal cari 100jt tapi unit termurah 170jt), sampaikan dengan jujur bahwa unit di range 100jt pas belum tersedia, namun tawarkan unit terdekat (seperti Calya) sambil menyebutkan selisih harganya agar kustomer tidak kaget.
     """
     
-    # Retry otomatis jika timeout (DeadlineExceeded)
+    # Retry otomatis dengan exponential backoff untuk DeadlineExceeded & ResourceExhausted (429)
     for attempt in range(max_retry):
         try:
             response = model.generate_content(
                 system_prompt + "\n\nPertanyaan Kustomer: " + pertanyaan,
                 generation_config=genai.GenerationConfig(temperature=0.2),
-                request_options={"timeout": 120}  # Timeout 120 detik
+                request_options={"timeout": 300}  # Timeout 300 detik (5 menit)
             )
             return response.text
-        except google_exceptions.DeadlineExceeded:
+        except google_exceptions.ResourceExhausted:
+            # Rate limit / quota exceeded (HTTP 429) — tunggu lebih lama
+            wait_time = min(2 ** attempt * 5, 60)  # 5s, 10s, 20s, 40s, 60s
             if attempt < max_retry - 1:
-                time.sleep(2)  # Tunggu 2 detik sebelum retry
+                time.sleep(wait_time)
+                continue
+            else:
+                raise
+        except google_exceptions.DeadlineExceeded:
+            # Timeout — retry dengan backoff ringan
+            wait_time = 2 ** attempt  # 1s, 2s, 4s, 8s, 16s
+            if attempt < max_retry - 1:
+                time.sleep(wait_time)
                 continue
             else:
                 raise
@@ -145,6 +200,9 @@ if user_input := st.chat_input("Tanya spesifikasi atau harga di sini..."):
                 with st.expander("🔍 Intip Data TiDB (Khusus Dosen Penguji)"):
                     st.code(konteks, language="json")
                     
+            except google_exceptions.ResourceExhausted:
+                jawaban = "⚠️ Mohon maaf, kuota API Gemini sedang penuh (rate limit). Sistem sudah mencoba ulang beberapa kali. Silakan tunggu 1-2 menit lalu coba lagi."
+                st.warning(jawaban)
             except google_exceptions.DeadlineExceeded:
                 jawaban = "⏳ Mohon maaf, server AI sedang sibuk dan membutuhkan waktu lebih lama. Silakan coba kirim pertanyaan Anda sekali lagi."
                 st.warning(jawaban)
