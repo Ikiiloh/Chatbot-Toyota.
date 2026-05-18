@@ -1,0 +1,341 @@
+# 🛠️ Tech Stack — Toyota Rantauprapat
+
+Dokumentasi lengkap mengenai teknologi yang digunakan pada project **Toyota Rantauprapat** (`vionatoyotarantauprapat`), sebuah website dealer resmi Toyota cabang Labuhanbatu Rantauprapat.
+
+---
+
+## 📐 Arsitektur Umum
+
+```mermaid
+graph TB
+    subgraph Frontend ["Frontend (Next.js 15 + React 19)"]
+        A["Pages / Routes<br/>(App Router)"]
+        B["UI Components<br/>(shadcn/ui + Radix UI)"]
+        C["State Management<br/>(Zustand)"]
+        D["Styling<br/>(Tailwind CSS)"]
+        E["Animation<br/>(Motion / Framer Motion)"]
+    end
+
+    subgraph Backend ["Backend (Next.js API Routes)"]
+        F["API Route<br/>/api/ai-mobil"]
+    end
+
+    subgraph External ["External Services"]
+        G["Google Gemini AI<br/>(gemini-2.0-flash-lite)"]
+        H["Google Apps Script<br/>(Spreadsheet API)"]
+        I["Cloudinary<br/>(Image CDN)"]
+        J["Vercel<br/>(Hosting + Analytics)"]
+    end
+
+    A --> B
+    A --> C
+    B --> D
+    A --> E
+    A --> F
+    F --> G
+    A --> H
+    B --> I
+    A --> J
+```
+
+---
+
+## 1. Framework & Runtime
+
+### Next.js 15.1.3
+| Aspek | Detail |
+|-------|--------|
+| **Versi** | `15.1.3` |
+| **Fungsi** | Framework fullstack React untuk server-side rendering (SSR), static site generation (SSG), dan API routes |
+| **Fitur yang Dipakai** | App Router, API Routes, Turbopack (dev server), Server Components (RSC), SEO metadata API |
+
+> [!IMPORTANT]
+> Project ini menggunakan **App Router** (folder `src/app/`) — bukan Pages Router — serta **Turbopack** sebagai bundler dev (`next dev --turbopack`) untuk performa build yang lebih cepat.
+
+**Halaman/Route yang tersedia:**
+- `/` — Homepage
+- `/mobil` — Daftar mobil
+- `/gallery` — Galeri dealer
+- `/layanan` — Layanan dealer
+- `/sales` — Daftar sales
+- `/promodetail` — Detail promo
+- `/rekomendasi-ai` — Rekomendasi AI
+- `/create` — Form pembuatan rekomendasi
+- `/api/ai-mobil` — API endpoint AI
+
+### React 19
+| Aspek | Detail |
+|-------|--------|
+| **Versi** | `^19.0.0` |
+| **Fungsi** | Library UI untuk membangun antarmuka pengguna berbasis komponen |
+| **Peran** | Merender seluruh UI, mengelola state lokal, lifecycle komponen |
+
+### TypeScript 5
+| Aspek | Detail |
+|-------|--------|
+| **Versi** | `^5` |
+| **Fungsi** | Superset JavaScript yang menambahkan **static type checking** |
+| **Peran** | Mendeteksi error saat development, menyediakan autocomplete, dan mendokumentasikan struktur data melalui interface |
+
+Contoh penggunaan interface di project:
+```typescript
+// src/lib/interfaces/data.interface.ts
+export interface Sales {
+  id: number;
+  nama: string;
+  profile: string;
+  nohp: string;
+  deskripsi: string;
+  gallery: any;
+}
+```
+
+---
+
+## 2. Styling & UI Components
+
+### Tailwind CSS 3.4
+| Aspek | Detail |
+|-------|--------|
+| **Versi** | `^3.4.1` |
+| **Fungsi** | Utility-first CSS framework untuk styling komponen secara cepat dan konsisten |
+| **Fitur yang Dipakai** | Dark mode (`class` strategy), CSS Variables, custom color tokens, responsive design |
+
+> [!NOTE]
+> Tailwind dikonfigurasi menggunakan **CSS Variables** (`hsl(var(--primary))`, dll.) sehingga tema warna dapat diubah secara dinamis antara light dan dark mode.
+
+### shadcn/ui (New York style)
+| Aspek | Detail |
+|-------|--------|
+| **Style** | `new-york` |
+| **Fungsi** | Koleksi komponen UI yang dapat di-copy langsung ke project, dibangun di atas Radix UI + Tailwind CSS |
+| **Komponen yang Dipakai** | Button, Card, Dialog, Input, Label, Navigation Menu, Popover, Scroll Area, Select, Sheet, Skeleton, Slider, Textarea, Toast |
+
+### Radix UI Primitives
+| Aspek | Detail |
+|-------|--------|
+| **Fungsi** | Headless UI primitives yang accessible dan unstyled — menjadi fondasi shadcn/ui |
+| **Paket yang Dipakai** | |
+
+| Package | Fungsi |
+|---------|--------|
+| `@radix-ui/react-dialog` | Modal/dialog popup |
+| `@radix-ui/react-label` | Label form yang accessible |
+| `@radix-ui/react-navigation-menu` | Menu navigasi utama |
+| `@radix-ui/react-popover` | Popover/tooltip |
+| `@radix-ui/react-scroll-area` | Area scroll kustom |
+| `@radix-ui/react-select` | Dropdown select |
+| `@radix-ui/react-slider` | Slider input (budget) |
+| `@radix-ui/react-slot` | Komposisi komponen |
+| `@radix-ui/react-toast` | Notifikasi toast |
+
+### Utility Libraries untuk Styling
+
+| Library | Versi | Fungsi |
+|---------|-------|--------|
+| `class-variance-authority` | `^0.7.1` | Membuat varian komponen (size, variant) secara type-safe |
+| `clsx` | `^2.1.1` | Menggabungkan class names secara kondisional |
+| `tailwind-merge` | `^2.6.0` | Menggabungkan Tailwind classes tanpa konflik (deduplikasi) |
+| `tailwindcss-animate` | `^1.0.7` | Plugin animasi CSS untuk Tailwind |
+
+Ketiganya digabung dalam fungsi `cn()`:
+```typescript
+// src/lib/utils.ts
+import { clsx, type ClassValue } from "clsx";
+import { twMerge } from "tailwind-merge";
+
+export function cn(...inputs: ClassValue[]) {
+  return twMerge(clsx(inputs));
+}
+```
+
+### Lucide React
+| Aspek | Detail |
+|-------|--------|
+| **Versi** | `^0.469.0` |
+| **Fungsi** | Library ikon SVG yang ringan dan konsisten untuk seluruh UI (chevrons, navigasi, dll.) |
+
+---
+
+## 3. State Management
+
+### Zustand 5
+| Aspek | Detail |
+|-------|--------|
+| **Versi** | `^5.0.3` |
+| **Fungsi** | Library state management global yang ringan dan minimalis |
+
+**Store yang dibuat:**
+
+| Store File | Fungsi |
+|------------|--------|
+| `useCarStore.tsx` | Menyimpan daftar semua mobil |
+| `useCarDetailStore.tsx` | Menyimpan detail mobil yang sedang dilihat |
+| `usePromoStore.tsx` | Menyimpan daftar promo |
+| `usePromoDetailStore.tsx` | Menyimpan detail promo |
+| `useSalesStore.tsx` | Menyimpan daftar sales |
+| `useSalesDetailStore.tsx` | Menyimpan detail sales |
+| `useLayananStore.tsx` | Menyimpan daftar layanan |
+| `useLayananDetailStore.tsx` | Menyimpan detail layanan |
+| `useReviewStore.tsx` | Menyimpan data review pelanggan |
+
+> [!TIP]
+> Zustand dipilih karena API-nya yang sangat sederhana dibanding Redux — tidak perlu boilerplate seperti reducers, actions, atau providers.
+
+---
+
+## 4. AI Integration
+
+### Google Generative AI (Gemini)
+| Aspek | Detail |
+|-------|--------|
+| **Versi** | `^0.21.0` |
+| **Model** | `gemini-2.0-flash-lite` |
+| **Fungsi** | Memberikan **rekomendasi mobil Toyota** berdasarkan preferensi pengguna (budget, kategori, kebutuhan, penggunaan, lokasi) |
+
+**Alur kerja AI:**
+
+```mermaid
+sequenceDiagram
+    participant User as Pengguna
+    participant Form as Form Rekomendasi
+    participant API as /api/ai-mobil
+    participant Gemini as Google Gemini AI
+
+    User->>Form: Isi preferensi (budget, kategori, dll.)
+    Form->>API: POST request + prompt
+    API->>Gemini: chatSession.sendMessage(prompt)
+    Gemini-->>API: JSON rekomendasi mobil
+    API-->>Form: Parsed response
+    Form-->>User: Tampilkan rekomendasi
+    Form->>Form: Kirim data ke Google Sheet (logging)
+```
+
+**Konfigurasi model:**
+- **Temperature**: `0.7` — keseimbangan antara kreatif dan deterministik
+- **Response format**: `application/json` — output langsung berupa JSON terstruktur
+- **Max tokens**: `8192`
+
+---
+
+## 5. Data Fetching & External Services
+
+### Axios
+| Aspek | Detail |
+|-------|--------|
+| **Versi** | `^1.7.9` |
+| **Fungsi** | HTTP client untuk fetching data dari Google Apps Script endpoints |
+
+### Google Apps Script (Spreadsheet sebagai Backend)
+| Aspek | Detail |
+|-------|--------|
+| **Fungsi** | Menyediakan REST API dari Google Spreadsheet sebagai **database/CMS** |
+
+**Endpoint data yang di-fetch:**
+
+| Fungsi | Action | Deskripsi |
+|--------|--------|-----------|
+| `fetchMobil()` | `?action=mobil` | Daftar semua mobil Toyota |
+| `fetchMobilDetail(slug)` | `?action=mobil&nama=...` | Detail spesifik satu mobil |
+| `fetchDeskripsi(nama)` | `?action=deskripsiMobil&nama=...` | Deskripsi lengkap mobil |
+| `fetchPromo()` | `?action=promo` | Daftar promo aktif |
+| `fetchPromoDetail(id)` | `?action=promo&id_promo=...` | Detail promo |
+| `fetchSales()` | `?action=sales` | Daftar sales |
+| `fetchSalesDetail(id)` | `?action=sales&id_sales=...` | Detail sales |
+| `fetchLayanan()` | `?action=layanan` | Daftar layanan dealer |
+| `fetchLayananDetail(id)` | `?action=layanan&id_layanan=...` | Detail layanan |
+| `fetchGallery()` | `?action=gallery` | Galeri foto dealer |
+| `fetchReview()` | `?action=review` | Review pelanggan |
+
+> [!NOTE]
+> Google Spreadsheet digunakan sebagai **headless CMS** — memungkinkan non-developer (tim marketing/sales) mengupdate konten tanpa mengubah kode.
+
+### Cloudinary
+| Aspek | Detail |
+|-------|--------|
+| **Fungsi** | CDN dan hosting gambar untuk seluruh foto mobil Toyota |
+| **URL Pattern** | `https://res.cloudinary.com/dlcljeoih/image/upload/...` |
+
+---
+
+## 6. Animasi & Transisi
+
+### Motion (Framer Motion) 12
+| Aspek | Detail |
+|-------|--------|
+| **Versi** | `^12.4.5` |
+| **Fungsi** | Library animasi deklaratif untuk React — page transitions, hover effects, entrance animations |
+
+Digunakan pada **page transition** (file `template.tsx`):
+```tsx
+<motion.div
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  exit={{ opacity: 0, scale: 0.95 }}
+  transition={{ ease: "easeInOut", duration: 0.3 }}
+>
+  {children}
+</motion.div>
+```
+
+---
+
+## 7. Theming
+
+### next-themes
+| Aspek | Detail |
+|-------|--------|
+| **Versi** | `^0.4.4` |
+| **Fungsi** | Mengelola **dark mode / light mode** dengan strategi CSS class |
+| **Konfigurasi** | Default: system theme, attribute: `class` |
+
+---
+
+## 8. Deployment & Analytics
+
+### Vercel
+| Aspek | Detail |
+|-------|--------|
+| **Fungsi** | Platform hosting & deployment otomatis untuk Next.js |
+| **Domain** | `toyotarantauprapat.com` |
+
+### @vercel/analytics
+| Aspek | Detail |
+|-------|--------|
+| **Versi** | `^1.5.0` |
+| **Fungsi** | Mengumpulkan data analytics pengunjung (page views, web vitals) tanpa setup tambahan |
+
+---
+
+## 9. Development Tools
+
+| Tool | Versi | Fungsi |
+|------|-------|--------|
+| **ESLint** | `^9` | Linter untuk mendeteksi error & enforce coding standards |
+| **eslint-config-next** | `15.1.3` | Konfigurasi ESLint khusus Next.js (best practices) |
+| **PostCSS** | `^8` | CSS processor — diperlukan Tailwind CSS untuk bekerja |
+| **Turbopack** | Built-in Next.js 15 | Bundler pengganti Webpack, lebih cepat saat development |
+
+---
+
+## 📊 Ringkasan Tech Stack
+
+| Kategori | Teknologi | Versi |
+|----------|-----------|-------|
+| **Framework** | Next.js | 15.1.3 |
+| **UI Library** | React | 19 |
+| **Language** | TypeScript | 5 |
+| **Styling** | Tailwind CSS | 3.4 |
+| **UI Components** | shadcn/ui + Radix UI | New York style |
+| **Icons** | Lucide React | 0.469 |
+| **State Management** | Zustand | 5 |
+| **Animation** | Motion (Framer Motion) | 12.4 |
+| **AI** | Google Gemini (flash-lite) | 0.21 |
+| **HTTP Client** | Axios | 1.7 |
+| **Backend/CMS** | Google Apps Script + Spreadsheet | — |
+| **Image CDN** | Cloudinary | — |
+| **Theming** | next-themes | 0.4 |
+| **Analytics** | Vercel Analytics | 1.5 |
+| **Hosting** | Vercel | — |
+| **Linting** | ESLint | 9 |
+| **Bundler (Dev)** | Turbopack | Built-in |
