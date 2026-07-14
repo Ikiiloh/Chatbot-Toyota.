@@ -28,6 +28,6 @@ Konteks data spesifikasi, harga (OTR), dan metrik konsumsi bahan bakar yang tela
 
 ## Struktur Proyek & Tech Stack
 
-*   **Frontend UI (`toyotarantauprapat/`)**: Dibangun dengan **Next.js 16 (App Router)**, Tailwind CSS, dan komponen interaktif untuk pengalaman obrolan responsif. Terdapat juga mekanisme konkurensi (Semaphore Lock) dipadukan dengan Upstash Redis untuk mengatur batasan pemanggilan API.
-*   **Admin Data Management (`admin/`)**: Aplikasi **Python Flask** yang berfungsi untuk mengunggah dan mengekstrak data dari dokumen resmi (menggunakan `PyMuPDF`), membuat embedding, dan menyimpannya ke database.
+*   **Frontend UI (Root `/`)**: Dibangun dengan **Next.js 16 (App Router)**, Tailwind CSS, dan komponen interaktif untuk pengalaman obrolan responsif. Terdapat juga mekanisme konkurensi (Semaphore Lock) dipadukan dengan Upstash Redis untuk mengatur batasan pemanggilan API.
+*   **Admin Data Management (Eksternal `admin/`)**: Aplikasi **Python Flask** yang berfungsi untuk mengunggah dan mengekstrak data dari dokumen resmi (menggunakan `PyMuPDF`), membuat embedding, dan menyimpannya ke database.
 *   **Evaluasi Kinerja (`eval/` & Root)**: Tersedia skrip pengujian beban (*load testing*) serta panduan lengkap melakukan evaluasi DeepEval di Kaggle (dengan metrik *Faithfulness*, *Answer Relevancy*, dan metrik *Contextual Retrieval*).

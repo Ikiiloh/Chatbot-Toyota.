@@ -326,7 +326,6 @@ export default function ChatInterface() {
   };
 
   useEffect(() => {
-    scrollToBottom();
   }, [messages, isLoading]);
 
   // Handle auto-focus and text area height reset
@@ -483,8 +482,8 @@ export default function ChatInterface() {
         }
         setMessages((prev) => [
           ...prev,
-          { 
-            role: "assistant", 
+          {
+            role: "assistant",
             content: data.response,
             rewrittenQuery: data.rewrittenQuery || undefined
           },
@@ -700,7 +699,7 @@ export default function ChatInterface() {
                           )}
                         </div>
                       )}
-                      
+
                       {/* Tampilkan kata kunci hasil query expansion */}
                       {msg.role === "assistant" && msg.rewrittenQuery && (
                         <div className="mt-2.5 px-3 py-2 bg-yellow-500/5 dark:bg-yellow-500/10 border border-yellow-500/20 rounded-xl flex items-center gap-1.5 text-[11px] text-yellow-600 dark:text-yellow-400 font-medium">
