@@ -4,7 +4,7 @@ Toyota Smart Recommender adalah sistem AI interaktif yang dirancang untuk memban
 
 Fokus utama dari proyek ini adalah implementasi **Sistem Rekomendasi AI berbasis Hybrid RAG (Retrieval-Augmented Generation)** yang menggabungkan kemampuan analisis bahasa alami dari LLM dengan pencarian data terstruktur dan pencarian vektor tingkat lanjut.
 
-## 🧠 Arsitektur Hybrid RAG
+## Arsitektur Hybrid RAG
 
 Proyek ini mengadopsi pendekatan **Self-Querying Hybrid RAG Pipeline** yang sangat dioptimalkan untuk ranah otomotif, terdiri dari 3 tahapan utama:
 
@@ -26,15 +26,8 @@ Konteks data spesifikasi, harga (OTR), dan metrik konsumsi bahan bakar yang tela
 *   Hanya menjawab berdasarkan konteks data yang diretriever.
 *   Mampu melakukan *Cross-Selling* jika mobil yang dicari kustomer tidak tersedia atau melampaui budget, dengan cara mencocokkan kemiripan kriteria spesifikasi.
 
-## 🏗️ Struktur Proyek & Tech Stack
+## Struktur Proyek & Tech Stack
 
 *   **Frontend UI (`toyotarantauprapat/`)**: Dibangun dengan **Next.js 16 (App Router)**, Tailwind CSS, dan komponen interaktif untuk pengalaman obrolan responsif. Terdapat juga mekanisme konkurensi (Semaphore Lock) dipadukan dengan Upstash Redis untuk mengatur batasan pemanggilan API.
 *   **Admin Data Management (`admin/`)**: Aplikasi **Python Flask** yang berfungsi untuk mengunggah dan mengekstrak data dari dokumen resmi (menggunakan `PyMuPDF`), membuat embedding, dan menyimpannya ke database.
 *   **Evaluasi Kinerja (`eval/` & Root)**: Tersedia skrip pengujian beban (*load testing*) serta panduan lengkap melakukan evaluasi DeepEval di Kaggle (dengan metrik *Faithfulness*, *Answer Relevancy*, dan metrik *Contextual Retrieval*).
-
-## 🚀 Rencana Pengembangan Lanjut (Roadmap)
-
-Sistem Hybrid RAG ini akan terus dikembangkan dengan penambahan kapabilitas seperti:
-1.  **Sistem Pembatasan Kuota (Anti-Bypass)**: Mekanisme proteksi limitasi penggunaan AI harian per pengguna berbasis alamat IP dan sidik jari peramban (*browser fingerprinting*).
-2.  **Integrasi RAG Kalkulasi Pembiayaan**: Menyuntikkan rumus simulasi kredit Auto2000 ke dalam proses *Generation* LLM sehingga kustomer bisa langsung berdiskusi mengenai cicilan kredit.
-3.  **Tautan Otomatis WhatsApp**: Tombol panggilan aksi (*Call-to-Action*) yang secara dinamis mengirimkan rekomendasi mobil hasil diskusi dari AI langsung ke nomor WhatsApp Sales Representatif (Manusia) secara mulus.
